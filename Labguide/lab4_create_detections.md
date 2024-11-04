@@ -80,16 +80,7 @@ In this task, you will create a detection for the first attack of the previous e
 
     >**Note:** You might see some popup after clicking on **Logs**. close all Popups by clicking on **X** Icon.
 
-1. **Run** the following KQL Statement again to recall the tables where we have this data:
-
-    ```KQL
-    search "temp\\startup.bat"
-    ```
-    ![Lab overview.](./media/Lab06-task02-query1.png)
-         
-1. The table *SecurityEvent* looks to have the data already normalized and is easy for us to query. Expand the row to see all the columns related to the record.
-
-1. From the results, we now know that the Threat Actor is using reg.exe to add keys to the Registry key and the program is located in C:\temp. **Run** the following statement to replace the *search* operator with the *where* operator in our query:
+1. **Run** the following statement with the *where* operator in our query to retrieve the results for the records that starts from particular EventId.
 
     ```KQL
     SecurityEvent 
