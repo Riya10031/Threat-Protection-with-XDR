@@ -115,13 +115,13 @@ You are going to simulate the attacks that you will later use to detect and inve
 
       >**Important**: Do not close these windows. Let this PowerShell script run in the background. The command needs to generate log entries for some hours. You can proceed to the next task and next exercises while this script runs. The data created by this task will be used in the Threat Hunting lab later. This process will not create substantial amounts of data or processing.
 
-### Task 3: Privilege Elevation Attack with User Addd
+### Task 3: Privilege Elevation Attack with User Add
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
 1. In Azure portal, Search for **Virtual machines (1)** and select **Virtual machines (2)**.
 
-    ![VMrdp](./media/vm.png)
+      ![VMrdp](./media/vm.png)
 
 1. Select the virtual machine **s2vm-<inject key="DeploymentID" enableCopy="false" />** from the list.
    
