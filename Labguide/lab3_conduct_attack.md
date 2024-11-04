@@ -45,7 +45,7 @@ You are going to simulate the attacks that you will later use to detect and inve
  
    <validation step="8f13852e-0b9e-4064-babe-3918fddfd6c3" />
    
-### Task 2: Command and Control Attack with DNS
+### Task 2: Command and Control Attack with DNSS
 
 >**Note:** Perform this task in your LAB-VM (svm).
 
