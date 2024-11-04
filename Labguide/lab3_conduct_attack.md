@@ -115,7 +115,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
       >**Important**: Do not close these windows. Let this PowerShell script run in the background. The command needs to generate log entries for some hours. You can proceed to the next task and next exercises while this script runs. The data created by this task will be used in the Threat Hunting lab later. This process will not create substantial amounts of data or processing.
 
-### Task 3: Privilege Elevation Attack with User Add
+### Task 3: Privilege Elevation Attack with User Addd
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
