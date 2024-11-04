@@ -57,7 +57,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 1. Select **Yes** to create a new file and copy the following PowerShell script into *c2.ps1*.
 
-   >**Note:** Pasting into the virtual machine file might not show the full script length. Make sure the script matches the instructions within the *c2.ps1* file.
+    >**Note:** Pasting into the virtual machine file might not show the full script length. Make sure the script matches the instructions within the *c2.ps1* file.
 
     ```PowerShell
     param(
