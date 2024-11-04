@@ -99,7 +99,6 @@ You are going to simulate the attacks that you will later use to detect and inve
     Until ($TimeNow -ge $RunEnd)
     ```
 
-
 1. In the Notepad menu, select **File** and then **Save**. 
 
 1. Go back to the Command Prompt window, enter the following command and press Enter.
