@@ -57,9 +57,47 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 1. Select **Yes** to create a new file and copy the following PowerShell script into *c2.ps1*.
 
-      ```CommandPrompt
-      Start PowerShell.exe -file c2.ps1
-      ```
+      ```PowerShell
+      param(
+        [string]$Domain = "microsoft.com",
+        [string]$Subdomain = "subdomain",
+        [string]$Sub2domain = "sub2domain",
+        [string]$Sub3domain = "sub3domain",
+        [string]$QueryType = "TXT",
+        [int]$C2Interval = 8,
+        [int]$C2Jitter = 20,
+        [int]$RunTime = 240
+    )
+    $RunStart = Get-Date
+    $RunEnd = $RunStart.addminutes($RunTime)
+    $x2 = 1
+    $x3 = 1 
+    Do {
+        $TimeNow = Get-Date
+        Resolve-DnsName -type $QueryType $Subdomain".$(Get-Random -Minimum 1 -Maximum 999999)."$Domain -QuickTimeout
+        if ($x2 -eq 3 )
+        {
+            Resolve-DnsName -type $QueryType $Sub2domain".$(Get-Random -Minimum 1 -Maximum 999999)."$Domain -QuickTimeout
+            $x2 = 1
+        }
+        else
+        {
+            $x2 = $x2 + 1
+        }    
+        if ($x3 -eq 7 )
+        {
+            Resolve-DnsName -type $QueryType $Sub3domain".$(Get-Random -Minimum 1 -Maximum 999999)."$Domain -QuickTimeout
+            $x3 = 1
+        }
+        else
+        {
+            $x3 = $x3 + 1
+        }
+        $Jitter = ((Get-Random -Minimum -$C2Jitter -Maximum $C2Jitter) / 100 + 1) +$C2Interval
+        Start-Sleep -Seconds $Jitter
+    }
+    Until ($TimeNow -ge $RunEnd)
+    ```
 
 1. In the Notepad menu, select **File** and then **Save**. 
 
