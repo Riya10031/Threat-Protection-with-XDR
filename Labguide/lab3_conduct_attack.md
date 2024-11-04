@@ -125,43 +125,43 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 1. Select the virtual machine **s2vm-<inject key="DeploymentID" enableCopy="false" />** from the list.
    
-     ![VMrdp](./media/xdr26.png)
+      ![VMrdp](./media/xdr26.png)
 
 1. At the beginning of the virtual machine page, click on **Connect (1)**, and from the drop-down select **Connect (2)**.
 
-     ![VMrdp](./media/xdr27.png)
+      ![VMrdp](./media/xdr27.png)
 
 1. On the Connect to Virtual Machine page, select RDP, Choose the option to **Download RDP File.**
 
-     ![VMrdp](./media/xdr28.png)
+      ![VMrdp](./media/xdr28.png)
 
       >**Note:** You might see the warning option while downloading the rdp file. please click on **keep.**
 
 1. Open the downloaded RDP file from the downloads.
 
-     ![VMrdp](./media/xdr23.png)
+      ![VMrdp](./media/xdr23.png)
 
 1. Select Connect when prompted. You will get a warning that the .rdp file is from an unknown publisher. This is expected. In the Remote Desktop Connection window, select Connect to continue.
 
-     ![VMrdp](./media/vm8.png)
+      ![VMrdp](./media/vm8.png)
    
 1. In the Windows Security window, select **More Choices.**
 
-     ![VMrdp](./media/xdr24.png)
+      ![VMrdp](./media/xdr24.png)
 
  1. Then Use a different account. Enter **Username:** <inject key="Labvm Admin Username"></inject> **(1)** and **Password:** <inject key="Labvm Admin Password"></inject> **(2)** and then select **OK (3).**
 
-     ![VMrdp](./media/vm6.png)
+      ![VMrdp](./media/vm6.png)
 
 1. Select **Yes** to verify the identity of the virtual machine and finish logging on.
 
-     ![VMrdp](./media/vm7.png)
+      ![VMrdp](./media/vm7.png)
 
 1. You should now be connected to the virtual machine via Remote Desktop.
 
 1. In the search of the taskbar of your **s2vm-<inject key="DeploymentID" enableCopy="false" />** VM, enter **Command (1)**. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator (2)**. Select **Yes** in the User Account Control window that allows the app to run.
 
-     ![VMrdp](./media/xdr25.png)
+      ![VMrdp](./media/xdr25.png)
 
 1. In the Command Prompt, create a Temp folder in the root directory. Remember to press Enter after the last row:
 
