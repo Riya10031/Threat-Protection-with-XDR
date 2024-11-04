@@ -58,6 +58,15 @@ The architecture diagram outlines a series of labs focused on configuring and ut
 
 - **Microsoft Defender Portal** : It is a security management platform that integrates various security solutions within the Microsoft ecosystem, enabling organizations to protect their environments across Microsoft 365, Azure, and other platforms. 
 
+- **Microsoft Sentinel** : Microsoft Sentinel is a cloud-native Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) solution within the Azure ecosystem. It provides a comprehensive platform for intelligent security analytics, threat detection, and incident response across an organization’s infrastructure.
+
+- **Playbooks**: Playbooks are automated workflows that respond to specific triggers, such as an incident being created. Built with Azure Logic Apps, playbooks automate actions like sending notifications, blocking IP addresses, or opening tickets, thereby streamlining incident response.
+
+- **Incidents**: An incident is a collection of related alerts that indicate a potential threat. Sentinel groups correlated alerts into incidents, helping security teams manage, investigate, and respond to security threats efficiently.
+
+- **Notebooks**: Microsoft Sentinel Notebooks use Jupyter notebooks, which combine code, queries, and visualizations to perform advanced threat analysis, data exploration, and investigation. They are especially useful for deep-dive analysis and threat hunting.
+
+- **Hunting Queries**: Hunting capabilities allow analysts to proactively search for threats in their environment. By running KQL (Kusto Query Language) queries, analysts can identify anomalies, explore patterns, and investigate suspicious activities without relying solely on preconfigured alerts.
 ## Getting Started with the Lab
 
 Ensure you have access to all required tools, account and carefully read each task and follow the steps in sequence. Refer to screenshots and tips provided for guidance throughout the lab.
@@ -99,6 +108,8 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 1. You can also validate the task by navigating to the **Lab Validation** tab, from the upper right corner in the lab guide section.
 
    ![Lab Validation](media/lab-validation.png)
+
+1. If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com.
 
 ## Lab Duration Extension
 
