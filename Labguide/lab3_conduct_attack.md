@@ -121,7 +121,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 1. In Azure portal, Search for **Virtual machines (1)** and select **Virtual machines (2)**.
 
-     ![VMrdp](./media/vm.png)
+    ![VMrdp](./media/vm.png)
 
 1. Select the virtual machine **s2vm-<inject key="DeploymentID" enableCopy="false" />** from the list.
    
