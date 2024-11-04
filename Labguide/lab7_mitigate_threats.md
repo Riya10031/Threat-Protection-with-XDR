@@ -153,9 +153,9 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. Click on **Manage Incident** to edit the details of this incident. Don't make any change only review the details
 
-1. Here, you can edit the name of the incident, add tags, assign it to an existing group or a user, change the status, classify the incident as required, and even add comments.
+1. Here, you can edit the name of the incident, add tags, assign it to an existing group or a user, change the status, classify the incident as required, and even add commentss.
 
-     ![Lab overview.](./media/lab10-task1-manage01.png)
+    ![Lab overview.](./media/lab10-task1-manage01.png)
 
 1. In the incident, the **Attack Story** tab provides a summary of the alerts and the incident graph on how these alerts are mapped.
 
