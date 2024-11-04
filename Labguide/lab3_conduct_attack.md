@@ -47,8 +47,6 @@ You are going to simulate the attacks that you will later use to detect and inve
    
 ### Task 2: Command and Control Attack with DNS
 
->**Note:** Perform this task in your LAB-VM (svm).
-
 1. Copy and run this command to create a script that will simulate a DNS query to a C2 server:
 
     ```CommandPrompt
