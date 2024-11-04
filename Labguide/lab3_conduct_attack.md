@@ -51,9 +51,9 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 1. Copy and run this command to create a script that will simulate a DNS query to a C2 server:
 
-    ```CommandPrompt
-    notepad c2.ps1
-    ```
+     ```CommandPrompt
+     notepad c2.ps1
+     ```
 
 1. Select **Yes** to create a new file and copy the following PowerShell script into *c2.ps1*.
 
