@@ -57,19 +57,19 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. On the Threat policies dashboard, select **Preset Security Policies**.
 
-     ![](./media/lab10-task3-preset-policies.png)
+       ![](./media/lab10-task3-preset-policies.png)
 
-      >**Note**: If you see any popup please Close it by clicking on **X** or **Close** button.
+       >**Note**: If you see any popup please Close it by clicking on **X** or **Close** button.
 
 1. Under Standard protection, select **Manage protection settings**. Hint: If you see this option grayed out, refresh your browser using Ctrl+F5.
 
-     ![](./media/lab10-task3-std-policies.png)  
+       ![](./media/lab10-task3-std-policies.png)  
 
-      >**Note:** If you encounter a pop-up prompting you to Exchange Organizational setup, wait for 5 minutes, refresh the page, and repeat the above steps again.
+       >**Note:** If you encounter a pop-up prompting you to Exchange Organizational setup, wait for 5 minutes, refresh the page, and repeat the above steps again.
 
 1. In the Apply Exchange Online Protection section, select **Specific recipients**, and under **Domains** start writing your tenant’s domain name, select it, and then select **Next**.
 
-     ![](./media/lab10-task3-std-policies01.png)
+      ![](./media/lab10-task3-std-policies01.png)
 
 1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, and Safe Links.
 
