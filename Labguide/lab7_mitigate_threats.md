@@ -69,27 +69,27 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. In the Apply Exchange Online Protection section, select **Specific recipients**, and under **Domains** start writing your tenant’s domain name, select it, and then select **Next**.
 
-      ![](./media/lab10-task3-std-policies01.png)
+       ![](./media/lab10-task3-std-policies01.png)
 
 1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, and Safe Links.
 
-     ![](./media/lab10-task3-std-policies02.png)
+       ![](./media/lab10-task3-std-policies02.png)
 
 1. In the Impersonation protection section, select **Next** until you reach to policy mode section.
 
-     ![](./media/lab10-task3-std-policies03.png)
+       ![](./media/lab10-task3-std-policies03.png)
      
 1. In the Policy mode section, make sure the **Turn on the policy when finished** radio button is selected, and then select **Next**.
 
-     ![](./media/lab10-task3-std-policies04.png)
+       ![](./media/lab10-task3-std-policies04.png)
     
 1. Read the content under Review and confirm your changes select **Confirm** to apply the changes and then select **Done** to finish.
 
-     ![](./media/lab10-task3-std-policies05.png)
+       ![](./media/lab10-task3-std-policies05.png)
 
 1. Under Strict protection, select **Manage protection settings**. Hint: Strict protection is found under “Email & Collaboration - Policies & rules - Threat policies - Preset security policies”.
 
-     ![](./media/lab10-task3-strict-policies.png)
+       ![](./media/lab10-task3-strict-policies.png)
 
 1. In the Apply Exchange Online Protection, select **Specific recipients** and under **Groups**, select your newly created group, and then select **Next**. Notice that this configuration applies policies for anti-spam, outbound spam filters, anti-malware, and anti-phishing.
 
@@ -99,11 +99,11 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. In the Policy mode section, make sure the **Turn on the policy when finished** radio button is selected, and then select **Next**.
 
-     ![](./media/lab10-task3-strict-policies03.png)
+       ![](./media/lab10-task3-strict-policies03.png)
    
 1. Read the content under Review and confirm your changes select **Confirm** to apply the changes and then select **Done** to finish.
 
-     ![](./media/lab10-task3-strict-policies04.png)
+       ![](./media/lab10-task3-strict-policies04.png)
 
 ### Task 3: Activate a Microsoft Security Rule
 
@@ -117,9 +117,9 @@ In this task, you will activate a Microsoft Security rule.
 
 1. Select the **Microsoft incident creation rule** from the dropdown + Create.
 
-     [](./media/lab10-task4-analytics.png)
+       [](./media/lab10-task4-analytics.png)
 
-      >**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
+       >**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
 
 1. In the name column, provide name of your choice and in dropdown of **Microsoft security service** select the **Microsoft Defender for Cloud**.
 
@@ -155,7 +155,7 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. Here, you can edit the name of the incident, add tags, assign it to an existing group or a user, change the status, classify the incident as required, and even add comments.
 
-      ![Lab overview.](./media/lab10-task1-manage01.png)
+       ![Lab overview.](./media/lab10-task1-manage01.png)
 
 1. In the incident, the **Attack Story** tab provides a summary of the alerts and the incident graph on how these alerts are mapped.
 
@@ -180,31 +180,31 @@ In this task, you will investigate and mitigate the alerts through recommendatio
 
 1. Click on the drop-down for the first suspicious behavior to fully investigate the root cause for this activity.
 
-     ![Lab overview.](./media/lab10-task2-alerts-max01.png)
+       ![Lab overview.](./media/lab10-task2-alerts-max01.png)
 
 1. You can see that this suspicious behavior was reported when the user ran a certain command. 
 
 1. Click on the ellipses of any of process in process tree and then select **Go Hunt**. This will redirect you to a new tab of **Advanced Hunting** where you can run the query and get the results.
 
-     ![Lab overview.](./media/lab10-task2-alerts-hunt.png)
+       ![Lab overview.](./media/lab10-task2-alerts-hunt.png)
 
-     ![Lab overview.](./media/lab10-task2-alerts-hunt01.png)
+       ![Lab overview.](./media/lab10-task2-alerts-hunt01.png)
 
 1. You can also investigate the alert further by navigating back to the alerts and clicking on **Deep analysis**.
 
-     ![Lab overview.](./media/lab10-task2-alerts-deep-analysis.png)
+       ![Lab overview.](./media/lab10-task2-alerts-deep-analysis.png)
 
 1. You will be redirected to a new tab. Click on **Submit** to get the detailed analyzed file.
 
-     ![Lab overview.](./media/lab10-task2-alerts-deep-analysis01.png)
+       ![Lab overview.](./media/lab10-task2-alerts-deep-analysis01.png)
 
 1. This process will take some time, after which you can see the deep analysis of the alert and further investigate it.
 
-     ![Lab overview.](./media/lab10-task2-alerts-deep-analysis02.png)
+       ![Lab overview.](./media/lab10-task2-alerts-deep-analysis02.png)
 
 1. Microsoft Defender also provides recommendations to mitigate the alerts. On the alert details page, click on the **Recommendations** tab to view all the recommendations.
 
-     ![Lab overview.](./media/lab10-task2-alerts-recommendations.png)
+       ![Lab overview.](./media/lab10-task2-alerts-recommendations.png)
 
 ## Review
 In this lab, you have completed the following tasks:
