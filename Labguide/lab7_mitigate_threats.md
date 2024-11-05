@@ -51,6 +51,10 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. If you are not already at the Microsoft 365 Defender portal in your browser, go to (https://security.microsoft.com) and log in with the **Tenant Email** credentials.
 
+1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
+
+    ![](./media/Lab01-task2-loganalyticworkspace.png)
+
 1. From the navigation menu, under Email & Collaboration area, select **Policies & rules**(1) and select **Threat policies**(2).
 
     ![](./media/lab10-task3-threat-policies.png)
