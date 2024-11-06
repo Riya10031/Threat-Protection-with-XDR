@@ -26,7 +26,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. Enter the below details for the New group page:
 
-   |Setting|Value|
+    |Setting|Value|
     |---|---|
     |Group Type| **Microsoft 365** |
     |Group Name| **Sg-IT** |
@@ -44,9 +44,9 @@ You're a Security Operations Analyst working at a company that implemented Micro
 - If you receive a success message, you can proceed to the next task.
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
+
 <validation step="eeee5693-cb58-4c1c-a282-ad195f87da98" />
-    
+
 ### Task 2: Apply Microsoft Defender for Office 365 preset security policies
 
 1. If you are not already at the Microsoft 365 Defender portal in your browser, go to (https://security.microsoft.com) and log in with the **Tenant Email** credentials.
@@ -54,7 +54,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 1. From the navigation menu, under Email & Collaboration area, select **Policies & rules**(1) and select **Threat policies**(2).
 
       ![](./media/lab10-task3-threat-policies.png)
-   
+
 1. On the Threat policies dashboard, select **Preset Security Policies**.
 
     ![](./media/lab10-task3-preset-policies.png)
@@ -78,11 +78,11 @@ You're a Security Operations Analyst working at a company that implemented Micro
 1. In the Impersonation protection section, select **Next** until you reach to policy mode section.
 
    ![](./media/lab10-task3-std-policies03.png)
-     
+
 1. In the Policy mode section, make sure the **Turn on the policy when finished** radio button is selected, and then select **Next**.
 
    ![](./media/lab10-task3-std-policies04.png)
-    
+
 1. Read the content under Review and confirm your changes select **Confirm** to apply the changes and then select **Done** to finish.
 
    ![](./media/lab10-task3-std-policies05.png)
@@ -100,7 +100,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 1. In the Policy mode section, make sure the **Turn on the policy when finished** radio button is selected, and then select **Next**.
 
    ![](./media/lab10-task3-strict-policies03.png)
-   
+
 1. Read the content under Review and confirm your changes select **Confirm** to apply the changes and then select **Done** to finish.
 
    ![](./media/lab10-task3-strict-policies04.png)
@@ -166,7 +166,6 @@ In this task, you will manage the incidents in the M365 Defender portal.
 1. The **Evidence & Responses** tab shows the initial evidence investigated by Microsoft Defender which includes the processes, IP addresses.
 
 1. The **Summary** tab gives us a summarized report of the incident including active alerts & their category, incident information, scope, and much more.
-
 
 ### Task 5: Investigate Alerts
 
