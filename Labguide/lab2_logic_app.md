@@ -71,12 +71,29 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     ![Picture 1](./media/xdr15.png) 
 
+1. On the **Overview** page, select the **Azure subscriptions**.
 
-1. In the left menu for Microsoft Defender for Cloud, under Management. Select **Environment settings (1)** then click on the subscription (or its equivalent name in your language). **(2)**
+    ![Picture 1](./media/subscription-01.png)
 
-    ![Picture 1](./media/xdr18.png) 
+1. On the **Environment Settings (1)** page, select **Subscription > Log Analytics Workspace (3)**, then toggle **Foundational CSPM** to **On (4)**. Please wait 2-5 minutes for the process to complete.
+
+    ![Picture 1](./media/envsettings-01.png)
+
+    ![Picture 1](./media/foundationalcspm.png)
+
+1. Navigate back to the **Environment settings (1)** then click on the subscription (or its equivalent name in your language). **(2)**
+
+    ![Picture 1](./media/moc-hol-3001.png) 
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
+
+1. Select the **Settings & Monitoring** tab from the Settings area (next to Save).
+
+    ![Picture 1](./media/Lab-02-task2-reviewplans.png)
+
+1. Review the monitoring extensions and confirm that **Log Analytics agent** is by-default **On**.
+
+    ![Picture 1](./media/loganalytics-agent.png) 
 
 
 ### Task 3: Create a Security Operations Center Team in Microsoft Teams.
