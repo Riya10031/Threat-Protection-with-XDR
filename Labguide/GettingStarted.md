@@ -1,3 +1,22 @@
+# Threat Protection uisng XDR
+
+### Overall Estimated Duration: 4 Hours
+
+## Overview
+
+Threat Protection with Extended Detection and Response (XDR) is a game-changing paradigm in cybersecurity, providing an unparalleled shield against modern threats. Unlike conventional security measures, XDR doesn’t just stop at surface-level defense; it orchestrates a symphony of security layers, unifying disparate tools and technologies to create an impenetrable fortress for an organization.
+
+## Objectives
+
+- **Review and explore sentinel workspace**: In this lab, you will explore a pre-configured Azure Sentinel workspace, investigating security incidents, configuring automated responses, and analyzing data to strengthen threat detection and response capabilities within the Azure environment.
+- **Integrate Logic App with Threat Protection and XDR**
+- **Conduct attacks**
+- **Create Detections**
+- **Investigate an Incident**
+- **Threat Hunting using Notebooks with Microsoft Sentinel**
+- **Mitigate threats using Microsoft 365 Defender**
+
+
 # Getting Started with the Lab
  
 Welcome to your Threat Protection with XDR workshop! We've prepared a seamless environment for you to familiarize yourself with the Microsoft security operations analyst, you monitor, identify, investigate, and respond to threats in multi-cloud environments and related Microsoft services. Let's begin by making the most of this experience:
