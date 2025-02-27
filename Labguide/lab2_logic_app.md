@@ -31,7 +31,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 
     ![Picture 1](./media/Lab02-task1-contenthub.png)  
 
-1. After receiving the notification of a successful installation, return to the **Data Connector** page under *Configuration* and click on the refresh button to ensure that the changes take effect.
+1. After receiving the notification of a successful installation, return to the **Data connectors** page under *Configuration* and click on the refresh button to ensure that the changes take effect.
 
 1. You should observe two options: **Security Events Via Legacy Agent** and **Windows Security Event Via AMA**.
 
@@ -71,37 +71,12 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     ![Picture 1](./media/xdr15.png) 
 
-1. Click the left menu, and then click on **Getting Started**.
 
-1. On the **Getting Started (1)** page, under the **Upgrade (2)** tab, ensure your *Subscription and loganalyticworkspace* is selected **(3)**, and then click the **Upgrade (4)** button at the bottom of the page. Please wait for 2-5 minutes for the process to complete, as it may take some time.
-
-    ![Picture 1](./media/xdr17.png) 
-
-4. In the left menu for Microsoft Defender for Cloud, under Management. Select **Environment settings (1)** then click on the subscription (or its equivalent name in your language). **(2)**
+1. In the left menu for Microsoft Defender for Cloud, under Management. Select **Environment settings (1)** then click on the subscription (or its equivalent name in your language). **(2)**
 
     ![Picture 1](./media/xdr18.png) 
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
-
-1. Select the **Settings & Monitoring** tab from the Settings area (next to Save).
- 
-    ![Picture 1](./media/Lab-02-task2-reviewplans.png) 
-
-1. Review the monitoring extensions and confirm that **Log Analytics agent/Azure Monitor agent** is **On (1)**. Then click on **Edit configuration (2).**
-
-    ![Picture 1](./media/xdr19.png) 
-
-1. On the **Auto-provision configuration** page, choose the **Custom workspace (1)** then select the newly created Log Ananytics workspace **(2)** which will gather all security events data of the machines to analyze. Click on **Apply. (3)** 
-
-   ![Picture 1](./media/xdr20.png)
-
-1. Click on **Continue** and then **Save** for the changes to take affect.
-
-   ![Picture 1](./media/xdr21.png)
-
-1. Close the settings page by selecting the 'X' on the upper right of the page to return to the **Environment settings**. Then, click on the **>** to the left of your subscription.
-
-   ![Picture 1](./media/xdr22.png)
 
 
 ### Task 3: Create a Security Operations Center Team in Microsoft Teams.
@@ -113,9 +88,9 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-   ![Lab overview.](./media/lab2.10.png)
+        ![Lab overview.](./media/lab2.10.png)
 
-    >**Note:** If you come up with the popup stay signed in to all your apps click on **No, sign in to this app only**.
+        >**Note:** If you come up with the popup stay signed in to all your apps click on **No, sign in to this app only**.
 
 1. Close any other popup opened and do not switch from classic teams, teams might automatically switch to new version after reopening the teams. please perform the below steps in the classic version as there might be steps vary in new version. 
 
@@ -220,7 +195,9 @@ In this task, you will update the new playbook you created with the proper conne
 
    ![Lab overview.](./media/xdr34.png) 
 
-1. Select **Sign in**. In the new window, select your Azure subscription admin credentials when prompted. The last line of the block should now read “Connected to your-admin-username”.   
+1. Select **Sign in**. In the new window, select your Azure subscription admin credentials when prompted. The last line of the block should now read “Connected to your-admin-username”.  
+
+    ![Lab overview.](./media/incident-01.png) 
 
 1. Now select the *second block*, **Connections**.
 
@@ -231,6 +208,8 @@ In this task, you will update the new playbook you created with the proper conne
    ![Lab overview.](./media/xdr36.png) 
 
 1. Select **Add new** then **Sign in** and select your Azure admin credentials when prompted. The last line of the block should now read “Connected to your-admin-username”.
+
+    ![Lab overview.](./media/incidnet-02.png)
    
 1. The block has now been renamed to **Post a message (V3)**, at the end of the Team field, select the X to clear the contents. The field is changed to a drop-down with a listing of the available Teams from Microsoft Teams. Select **SOC (1)**.
 

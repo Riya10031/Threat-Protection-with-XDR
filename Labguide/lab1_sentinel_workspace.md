@@ -63,6 +63,8 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
    ![](./media/xdr2.png)
 
+   >**Note:** The image is for reference only; your version may differ.
+
 1. In the **threat management** section, choose **Incidents** from the left panel to assess detected security incidents and alerts.
 
 1. Click on the **Status (1)** filter beside the search space, and then select the **Select all (2)** checkbox to view all new, active, and closed incidents. Then click on **OK (3)**
@@ -98,11 +100,11 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
      ![](./media/Lab-01-task1-password.png) 
 
-    >**Note:** Take a moment to allow the option panel to fully load on the security portal.
+      >**Note:** Take a moment to allow the option panel to fully load on the security portal.
 
 1. Navigate to **Settings (1)** in the left menu bar, and then, on the Settings page, choose **Endpoints (2)**.
 
-    ![](./media/xdr44.png)
+    ![](./media/settings-01.png)
 
    >**Note:** If you face any issues while opening the Endpoint. follow the url: **https://security.microsoft.com/securitysettings/endpoints/onboarding**
 to access the endpoint resource

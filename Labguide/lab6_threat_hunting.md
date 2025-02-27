@@ -138,7 +138,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 In this task, instead of using a LiveStream, you will create a NRT analytics query rule. NRT rules run every minute and look back one minute. The benefit of NRT rules is they can use the alert and incident creation logic.
 
-1. In Microsoft Sentinel, on the left menu bar under the Configuration section, select **Analytics**, and then click on + create to choose **NRT query rule** from dropdown.
+1. In Microsoft Sentinel, on the left menu bar under the Configuration section, select **Analytics (1)**, and then click on **+ Create (2)** to choose **NRT query rule (3)** from dropdown.
 
     ![Picture 1](./media/lab09-task2-analytics.png) 
 
@@ -196,7 +196,7 @@ In this task, you will use a Search job to look for a C2.
 
 1. Select **Search job** button from the command bar. 
 
-1. The search job creates a new table with your results as soon as they arrive. The results can be consulted from the *Saved Searches* tab.
+1. Enter the name of the table as **Newtable**. The search job creates a new table with your results as soon as they arrive. The results can be consulted from the *Saved Searches* tab.
 
 1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
  
@@ -237,7 +237,7 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. Select **Notebooks** again and then select the **Templates** tab from the middle command bar. 
 
-1. Select **A Getting Started Guide for Microsoft Sentinel** ML Notebooks. 
+1. Select **A Getting Started Guide for Microsoft Sentinel ML** Notebooks. 
 
 1. On the right pane, scroll down and select **Create from template** button. Review the default options and then select **Save**.
 
@@ -255,11 +255,11 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. Type a unique name in the *Compute name* field. This will identify your compute instance.
 
-1. Scroll down and select the first option available. **Hint:** Workload type: Development on Notebooks and lightweight testing.
+1. Scroll down, under **Virtual machine size** select the **Standard_DS11__v2**.
 
 1. Select the **Review + Create** and **Create** button at the bottom of the screen. Close any feedback window that may appear. This will take a few minutes; you will see a notification (bell icon) when it is done and the *Compute instance* left icon turns from blue to green.
 
-1. Once the Compute has been created and running, verify that the kernel to use is *Python 3.8 - AzureML*. **Hint:** This is shown on the right of the command bar.
+1. Once the compute has been created and is running, select **Authenticate**, then choose the **Python 3.8 - AzureML** kernel. **Hint**: This is shown on the right of the command bar.
 
 1. Clear all the results from the notebook by selecting the **Clear all outputs** from the command bar and following the *Getting Started* tutorial. **Hint:** This can be found by selecting the ellipsis (...) from the command bar.
 
