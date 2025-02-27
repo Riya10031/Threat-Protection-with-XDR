@@ -188,6 +188,8 @@ You are going to simulate the attacks that you will later use to detect and inve
       net localgroup administrators theusernametoadd /add
       ```
 
+1. Minimize the **s2vm-<inject key="DeploymentID" enableCopy="false" />** VM.
+
 ## Review
 In this lab you have completed the following tasks:
 - Persistence Attack with Registry Key Add

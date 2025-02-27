@@ -28,17 +28,17 @@ In this task, you will create an automation rule which we will be using in while
    
 1. Select the Microsoft Sentinel Workspace you created earlier.
 
-1. Select Automation from the *Configuration* section.
+1. Select **Automation (1)** from the **Configuration** section.
 
-1. Click on *Create* and select *Automation rule*.
+1. Click on **+ Create (2)** and select **Automation rule (3)**.
 
 1. In the *Edit automation rule* use the below settings in the table to configure the automation rule.
 
     |Setting|Value|
     |:----|:----|
-    |Automation rule name|Startup RegKey|
-    |Trigger|When incident is created|
-    |Actions |Run playbook|
+    |Automation rule name|**Startup RegKey (4)**|
+    |Trigger|**When incident is created (5)**|
+    |Actions |**Run playbook (6)**|
    
 1. A second drop-down menu appears with an *Information (i)* message regarding playbook permissions and a **Manage playbook permissions link**
 
@@ -48,13 +48,13 @@ In this task, you will create an automation rule which we will be using in while
 
 1. On the *Manage Permissions* page, select the **threat-xdr** resource group, and select **Apply**.
 
-1. From the drop-down menu, select the playbook **PostMessageTeams-OnIncident**, if required refresh the page.
+1. From the drop-down menu, select the playbook **PostMessageTeams-OnIncident (7)**, if required refresh the page.
 
-1. Select **Apply**
+1. Select **Apply (8)**
 
-    ![Lab overview.](./media/create-automation-rule.png)
+    ![Lab overview.](./media/create-automation-rule-09.png)
 
-1. Similarly, create another rule using the below settings,
+1. Similarly, create another rule using the below settings, at the end select **Apply (5)**,
 
    |Setting|Value|
    |:----|:----|
@@ -65,7 +65,7 @@ In this task, you will create an automation rule which we will be using in while
 
    >**Note:** You have already assigned permissions to the playbook, so it must be available if not click on manage permissions and select it manually and it will be available by now
 
-   ![](./media/create-automation-rule2.png)
+   ![](./media/create-automation-rule2-02.png)
 
 ### Task 2: Persistence Attack Detection
 
@@ -111,7 +111,7 @@ In this task, you will create a detection for the first attack of the previous e
 
 1. Select **Next: Set rule logic >** button.
 
-1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, under *Alert enhancement* expand *Entity mapping* and select **+ Add New Entity**.
+1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, under **Alert enhancement** expand *Entity mapping* and select **+ Add New Entity**.
 
     |Entity|Identifier|Data Field|
     |:----|:----|:----|
@@ -150,7 +150,7 @@ In this task, you will create a detection for the second attack of the previous 
     | summarize count() by $table
     ```
 
-    ![](./media/6-1.png)
+    ![](./media/logsanalytics.png)
 
 1. The result might show events from different tables, but in our case, we want to investigate the SecurityEvent table. The EventID and Event that we are looking at is "4732 - A member was added to a security-enabled local group". With this, we will identify adding a member to a privileged group. **Run** the following KQL query to confirm:
 
@@ -213,7 +213,7 @@ In this task, you will create a detection for the second attack of the previous 
     |Entity|Identifier|Data Field|
     |:----|:----|:----|
     |Account|FullName|AccountCustomEntity|
-    |Host|Hostname|HostCustomEntity|
+    |Host|HostName|HostCustomEntity|
 
 1. For *Query scheduling* set the following:
 
@@ -235,8 +235,6 @@ In this task, you will create a detection for the second attack of the previous 
    ![](./media/analytics-rule.png)
   
 1. On the *Review and create* tab, select the **Save** button to create the new Scheduled Analytics rule.
-
-   ![](./media/6-8.png)
 
 ## Review
 In this lab you have completed the following tasks:

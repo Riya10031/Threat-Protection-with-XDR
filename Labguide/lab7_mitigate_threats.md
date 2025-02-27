@@ -32,11 +32,11 @@ You're a Security Operations Analyst working at a company that implemented Micro
     |Group Name| **Sg-IT** |
     |Microsoft Entra roles can be assigned to the group| **Yes** |
 
-1. Click on **no owners selected** and select the **<inject key="AzureAdUserEmail"></inject>** from the list and then click on **select**.
+1. Click on **No owners selected** and select the **<inject key="AzureAdUserEmail"></inject>** from the list and then click on **select**.
 
-1. Click on **no members selected** and select the **<inject key="AzureAdUserEmail"></inject>** from the list and then click on **select**.
+1. Click on **No members selected** and select the **<inject key="AzureAdUserEmail"></inject>** from the list and then click on **select**.
 
-   **Note**: Make sure you have selected **Group type** as **Microsoft 365**.
+   >**Note**: Make sure you have selected **Group type** as **Microsoft 365**.
 
 1. Select **Create** and click on **Yes**. 
 
@@ -51,7 +51,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. If you are not already at the Microsoft 365 Defender portal in your browser, go to (https://security.microsoft.com) and log in with the **Tenant Email** credentials.
 
-1. From the navigation menu, under Email & Collaboration area, select **Policies & rules**(1) and select **Threat policies**(2).
+1. From the navigation menu, under Email & Collaboration area, select **Policies & rules** (1) and select **Threat policies** (2).
 
       ![](./media/lab10-task3-threat-policies.png)
 
@@ -91,7 +91,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
    ![](./media/lab10-task3-strict-policies.png)
 
-1. In the Apply Exchange Online Protection, select **Specific recipients** and under **Groups**, select your newly created group, and then select **Next**. Notice that this configuration applies policies for anti-spam, outbound spam filters, anti-malware, and anti-phishing.
+1. In the Apply Exchange Online Protection, select **Specific recipients** and under **Groups**, select your newly created group **Sg-IT**, and then select **Next**. Notice that this configuration applies policies for anti-spam, outbound spam filters, anti-malware, and anti-phishing.
 
 1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, and Safe Links.
 
@@ -101,7 +101,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
    ![](./media/lab10-task3-strict-policies03.png)
 
-1. Read the content under Review and confirm your changes select **Confirm** to apply the changes and then select **Done** to finish.
+1. Read the content under Review and confirm your changes select **Confirm (1)** to apply the changes and then select **Done** to finish.
 
    ![](./media/lab10-task3-strict-policies04.png)
 
@@ -129,7 +129,7 @@ In this task, you will activate a Microsoft Security rule.
       
 1. Scroll down the page and under "Analytics rule logic - Filter by Severity", select the *Custom* drop-down list.
 
-1. Unselect **Low** for the severity level and go back to the rule.
+1. Unselect **Low** for the severity level.
 
 1. Select the **Next: Automated response** button and then select **Next: Review** button.
 
@@ -149,7 +149,7 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. In the **Enter password** dialog box, copy and paste **Password: <inject key="AzureAdUserPassword"></inject>** and then select **Sign in**.
 
-1. From the sidebar menu, from **Investigation & response** select **Incidents** under **Incidents and Alerts**. Click on the incident **[Test Alert] Suspicious Powershell commandline on one endpoint**.
+1. From the sidebar menu, under **Incidents and Alerts** select **Email & collaboration alerts**. Click on the incident **[Test Alert] Suspicious Powershell commandline on one endpoint**.
 
 1. Click on **Manage Incident** to edit the details of this incident. Don't make any change only review the details
 
