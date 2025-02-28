@@ -111,6 +111,10 @@ to access the endpoint resource
    
 1. Navigate to the **Onboarding (1)** option in the *Device Management section.*
 
+1. Under **Select operating system to start onboarding process:** make sure to select the **Windows Server 2019, 2022, and 2025**.
+
+   ![](./media/windows-server-2019-2025.png)
+
 1. In the **1. Onboard a device** section, ensure that **Local Script (for up to 10 devices) (2)** is visible in the Deployment method drop-down, then click the **Download onboarding package (3)** button.
 
     ![](./media/lab01-task3-localscript.png) 
@@ -147,11 +151,7 @@ to access the endpoint resource
 
 1. Paste the script by right-clicking in the **Administrator: Command Prompt** window and press **Enter** to run it. **Note:** The window closes automatically after running the script.
 
-1. In the Microsoft 365 Defender portal, navigate to the left-hand menu, and under the **Assets** area, select **Devices**. If the device is not shown, proceed with the next task and return to check it later. It can take up to 60 minutes for the first device to be displayed in the portal.
-
-    ![](./media/xdr45.png) 
-
-    >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
+1. In the Microsoft 365 Defender portal, navigate to **Endpoints** and select **Onboarding**. If the status is **Incomplete**, proceed with the next task and check back later, as it may take 24–48 hours to update.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    - If you receive a success message, you can proceed to the next task.

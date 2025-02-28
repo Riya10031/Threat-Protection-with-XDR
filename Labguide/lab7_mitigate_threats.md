@@ -149,7 +149,9 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. In the **Enter password** dialog box, copy and paste **Password: <inject key="AzureAdUserPassword"></inject>** and then select **Sign in**.
 
-1. From the sidebar menu, under **Incidents and Alerts** select **Email & collaboration alerts**. Click on the incident **[Test Alert] Suspicious Powershell commandline on one endpoint**.
+1. From the sidebar menu, under **Incidents and Alerts** select **Alerts**. Click on the incident **[Test Alert] Suspicious Powershell commandline**.
+
+   >**Note:** If you cannot see the **Alerts**, please wait, as updates may take 24-48 hours.
 
 1. Click on **Manage Incident** to edit the details of this incident. Don't make any change only review the details
 
