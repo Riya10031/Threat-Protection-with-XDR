@@ -1,4 +1,4 @@
-# Threat Protection uisng XDR
+# Threat Protection using XDR
 
 ### Overall Estimated Duration: 4 Hours
 
