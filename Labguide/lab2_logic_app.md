@@ -75,7 +75,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     ![Picture 1](./media/subscription-01.png)
 
-1. On the **Environment Settings (1)** page, select **Subscription > Log Analytics Workspace (3)**, then toggle **Foundational CSPM** to **On (4)**and Click on **Save button**. Please wait 2-5 minutes for the process to complete.
+1. On the **Environment Settings (1)** page, select **Subscription > Log Analytics Workspace (3)**, then toggle **Foundational CSPM** to **On(4)** and Click on **Save button**. Please wait 2-5 minutes for the process to complete.
 
     ![Picture 1](./media/envsettings-01.png)
 
