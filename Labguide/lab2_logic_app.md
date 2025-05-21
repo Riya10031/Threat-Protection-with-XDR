@@ -150,7 +150,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 
 In this task, you will create a Logic App that is used as a Playbook in Microsoft Sentinel.
 
-1. In the Microsoft Edge browser, open a new tab and paste https://github.com/Azure/Azure-Sentinel to nevigate to Microsoft Sentinel on GitHub.
+1. In the Microsoft Edge browser, open a new tab and paste https://github.com/Azure/Azure-Sentinel to navigate to Microsoft Sentinel on GitHub.
 
 1. Scroll down and select the **Solutions** folder.
 
