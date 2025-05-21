@@ -208,7 +208,7 @@ In this task, you will create a detection for the second attack of the previous 
 
     ![](./media/6-5.png)
 
-1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, and add the details for entities under *Alert enrichment - Entity mapping*, select **+ Add New Entity**.
+1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, and add the details for entities under **Alert enhancement > Entity mapping**, select **+ Add New Entity**.
 
     |Entity|Identifier|Data Field|
     |:----|:----|:----|
