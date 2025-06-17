@@ -170,11 +170,25 @@ In this task, you will create a Logic App that is used as a Playbook in Microsof
 
     - Leave **(US) East US** as the default value for *Region*. **(3)**
 
-    - Rename the *Playbook Name* to **PostMessageTeams-OnIncident (4)** and select **Review + create (5)**.
+    - Rename the *Playbook Name* to **PostMessageTeams-OnIncident (4)**. 
 
-      ![Lab overview.](./media/xdr31.png) 
+    - Provide the **Teams Group Id(5)** and **Teams Channel ID(6)** in order to get these values navigate back to the MS teams.
 
-1. Now select **Create**.
+        i.  For **Teams Group Id** click on **SOC Ellipse(1)** then click on **Get  link to team(2)**.
+
+        ![Lab overview.](./media/L2T4S6-i.png)
+
+        ii. For **Teams Channel Id** click on **New Alerts Ellipse(1)** then click on **Get  link to Channel(2)**.
+
+        ![Lab overview.](./media/L2T4S6-ii.png)
+
+        iii. Copy the values to the **Notepad**.
+
+        ![Lab overview.](./media/L2T4S6-iii.png)
+
+1. Select **Review + create (7)** and then click **Create**.
+
+      ![Lab overview.](./media/L2T4S7.png) 
 
     >**Note:** Wait for the deployment to finish before proceeding to the next task. It may take a couple of minutes to deploy.
 
