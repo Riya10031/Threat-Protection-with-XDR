@@ -87,7 +87,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
-    <validation step="31d7f5a4-6b5f-4ac5-9ec2-b0a6150b59eb" />
+    <validation step="4b5718f2-7e6f-46c2-90ac-cec8b34f08c5" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
