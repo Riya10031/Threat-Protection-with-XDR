@@ -538,7 +538,7 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
    
    >**Note:** If you cannot complete the steps above to access the Notebook, you can follow it on its GitHub viewer page instead. [Getting Started with Azure ML Notebooks and Microsoft Sentinel](https://nbviewer.org/github/Azure/Azure-Sentinel-Notebooks/blob/master/A%20Getting%20Started%20Guide%20For%20Azure%20Sentinel%20ML%20Notebooks.ipynb)
 
-    <validation step="45086f11-29f0-4daa-ae93-6cd87c02fee4" />
+    <validation step="dea62036-e32b-4d0c-a2a0-0967db2c48ef" />
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
