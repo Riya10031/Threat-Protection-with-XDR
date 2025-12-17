@@ -1,6 +1,6 @@
-# Lab 01 - Review and explore sentinel workspace
+# Lab 01 - Review and explore Sentinel workspace
 
-### Estimated Duration: 30 minutes
+### Estimated Duration: 30 Minutes
 
 In this lab, participants will explore a pre-configured Azure Sentinel workspace, investigating security incidents, configuring automated responses, and analyzing data to strengthen threat detection and response capabilities within the Azure environment.
 
@@ -34,7 +34,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
    
     * Password: <inject key="AzureAdUserPassword"></inject>
 
-      ![](../media/Lab-01-task1-password.png)
+      ![](../media/s1.png)
 
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
@@ -48,9 +48,9 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
  In this task, you will explore the Sentinel workspace to review and manage security data, alerts, and incident responses within Microsoft's Azure Sentinel.
 
-1. In the Search bar of the Azure portal, type *Microsft Sentinel*, then select **Microsoft Sentinel**.
+1. In the Search bar of the Azure portal, type **Microsoft Sentinel (1)**, then select **Microsoft Sentinel (2)**.
 
-    ![](../media/09.png)
+    ![](../media/s2.png)
 
 1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 
@@ -64,6 +64,8 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
     ![](../media/dataconnector.png)
 
+    >**Note**: If you do not see the page in the Microsoft Sentinel portal, try refreshing the browser. Wait 5 minutes and refresh again until it appears.
+
 1. In the **threat management** section, choose **Incidents** from the left panel to assess detected security incidents and alerts.
 
 1. Click on the status filter beside the search space, and then select the **Select all** checkbox to view all new, active, and closed incidents.
@@ -76,7 +78,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
     ![](../media/Lab01-task2-informational.png)
 
-    <validation step="08faf6a7-9700-4ffa-85a4-de53afb85777" />
+    <validation step="5cb2e18c-67c5-4b98-893d-74757b9f6a2a" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
