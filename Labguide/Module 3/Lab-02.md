@@ -26,6 +26,8 @@ In this task, you will create a detection for the first attack of the previous e
 
 1. Select **Logs** from the *General* section.
 
+1. From the Right drop-down down select **KQL MODE**.
+
 1. **Run** the following KQL Statement again to recall the tables where we have this data:
 
     ```KQL
@@ -54,6 +56,8 @@ In this task, you will create a detection for the first attack of the previous e
     ```
 
 1. Now that you have a good detection rule, in the Logs window, select the **+ New alert rule** in the command bar and then select **Create Microsoft Sentinel alert**. This will create a new Scheduled rule.
+
+   ![Lab overview.](../media/t4.png)
 
    > **Hint**: You might need to select the ellipsis (...) button in the command bar.
 
@@ -178,6 +182,8 @@ In this task, you will create a detection for the second attack of the previous 
 
 1. Now that you have a good detection rule, in the Logs window, select **+ New alert rule** in the command bar and then select **Create Microsoft Sentinel alert**. **Hint:** You might need to select the ellipsis (...) button in the command bar.
 
+   ![Lab overview.](../media/t6.png)
+
 1. You will be navigated to **Analytics rule wizard** page. In the *General* tab provide the values:
 
     |Setting|Value|
@@ -191,13 +197,14 @@ In this task, you will create a detection for the second attack of the previous 
 
    ![](../media/6-5.png)
 
-
 1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, and add the details for entities under *Alert enhancement - Entity mapping* by selecting **+ Add new entity**.
 
     |Entity|Identifier|Data Field|
     |:----|:----|:----|
     |Account|FullName|AccountCustomEntity|
     |Host|Hostname|HostCustomEntity|
+
+    ![Lab overview.](../media/t5.png)
 
 1. For *Query scheduling* set the following:
 

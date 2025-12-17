@@ -21,9 +21,9 @@ In this lab, you will simulate various attacks to detect and investigate in Micr
 
 In this task, you will configure Microsoft Sentinel to monitor Windows security events by installing **Windows Security Events** and setting up the **Security Events Via Legacy Agent** connector. You'll install the agent on an Azure VM, select **All Events** to stream, and verify the connection.
 
-1. In the Search bar of the Azure portal, type *Microsft Sentinel (1)*, then select **Microsoft Sentinel (2)**.
+1. In the Search bar of the Azure portal, type **Microsoft Sentinel (1)**, then select **Microsoft Sentinel (2)**.
 
-    ![](../media/09.png) 
+    ![](../media/s2.png) 
 
 1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 
@@ -31,7 +31,9 @@ In this task, you will configure Microsoft Sentinel to monitor Windows security 
 
 1. Navigate to the left menu and go to the Content Management section; there, select **Content Hub (1)**. On the Content Hub page, locate **Windows Security Events (2)**, and then **Select (3)** it. Finally, click on **Install (4)**.
 
-    ![Picture 1](../media/Lab02-task1-contenthub.png)  
+   ![Picture 1](../media/Lab02-task1-contenthub.png)
+
+   >**Note**: If you do not see the page in the Microsoft Sentinel portal, try refreshing the browser. Wait 5 minutes and refresh again until it appears.
 
 1. After receiving the notification of a successful installation, return to the **Data Connector** page and click on the **Refresh** button to ensure that the changes take effect.
 
@@ -59,7 +61,7 @@ In this task, you will configure Microsoft Sentinel to monitor Windows security 
 
     ![Picture 1](../media/lab2-task1-streamevents.png)
 
-   <validation step="13a30bee-c2ea-4d84-aff5-94791bc2ec08" />
+   <validation step="960b1946-fa10-427b-89a0-155b4eee3ce4" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -71,49 +73,39 @@ In this task, you will configure Microsoft Sentinel to monitor Windows security 
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 
-1. In the search bar of the Azure portal, type *Microsoft Defender for cloud (1)*, then select **Microsoft Defender for Cloud (2)**.
+1. In the search bar of the Azure portal, type **Defender (1)**, then select **Microsoft Defender for Cloud (2)**.
 
-    ![Picture 1](../media/Lab-02-task2-search.png) 
+    ![Picture 1](../media/s12.png) 
 
-1. Click the left menu, and then click on **Getting Started**.
+1. When prompted, click **Enable** to activate Defender CSPM.
+     
+   ![Picture 1](../media/gg-1-2.png)
 
-1. On the **Getting Started** page, under the **Upgrade** tab, ensure your subscription is selected, and then click the **Upgrade** button at the bottom of the page.
+   > **Note:** If you don’t see the pop-up prompt, simply continue and follow the lab guide steps as shown below.
 
-    ![Picture 1](../media/Lab-02-task2-upgrade.png)
+   >**Note:** This enables advanced posture capabilities like attack path analysis and permissions management.
 
-    >**Note:** Please wait for 2-5 minutes for the process to complete, as it may take some time. if you face some errors while upgrading the plan, please ignore and proceed with the next step.
+1. In the **Microsoft Defender for Cloud** page, under **Management**, select **Environment settings (1)**, expand **Azure** and **Tenant Root Group**, then select **Subscription (2)**.
 
-4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
+   ![Picture 1](../media/gg-1-3.png)
 
-1. Click on the subscription (or its equivalent name in your language). 
+1. On the **Settings & monitoring** page, turn **On (1)** the toggle for **Foundational CSPM** and **On (2)** for **Servers** under Cloud Workload Protection, then click **Save (3)**.
 
-1. Review the Azure resources that are now protected with the Defender for Cloud plans.
+   ![Picture 1](../media/t3_g_e2_16.png)
 
-1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
- 
-    ![Picture 1](../media/Lab-02-task2-reviewplans.png) 
+1. Click **Environment settings** in the top to return to the environment settings page.
 
-1. Review the monitoring extensions and confirm that **Log Analytics agent/Azure Monitor agent** is **On**.
+   ![Picture 1](../media/t3_g_e2_17.png)
 
-    ![Picture 1](../media/Log_Analytics_Enable_1_new.png) 
+1. On the **Environment settings** page, expand **your subscription (1)**, and select **loganalycticworkspace (2)**.
 
-1. Select the newly created **Log Analytics workspace** which will gather all security events data of the machines to analyze. Click on **Apply** and **Continue**. Click on **Save** for the changes to take effect.
+   ![Picture 1](../media/t3_g_e2_18.png)
 
-   ![Picture 1](../media/log1.png)
+1. On the **Select Defender plan** page, turn **On (1)** the toggles for **Foundational CSPM** and **Servers**, then click **Save (2)**.
 
-1. Close the settings page by selecting the 'X' on the upper right of the page to return to the **Environment settings**. Then, click on the '>' to the left of your subscription.
-
-1. Select the Log Analytics workspace named **loganalyticworkspace** to review the available options and pricing.
-
-    ![Picture 1](../media/Lab-02-task2-subscription.png) 
-
-1. Select **Enable all plans** (to the right of Select Defender plan), and then choose **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
-
-    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.
+   ![Picture 1](../media/t3_g_e2_19.png)
 
 1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
-
-    ![Picture 1](../media/Lab-02-task2-save.png)
 
 ### Task 3: Persistence Attack with Registry Key Add 
 
@@ -293,6 +285,8 @@ In this task, you will create a playbook in Microsoft Sentinel by selecting the 
 1. Select the **Automation** form the *Configuration* section.
 
    ![Lab overview.](../media/image_27.png)
+
+   >**Note**: If you do not see the page in the Microsoft Sentinel portal, try refreshing the browser. Wait 5 minutes and refresh again until it appears.
 
 1. Click on create and select **Playbook with incident trigger**.
 

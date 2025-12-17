@@ -25,6 +25,8 @@ In this task, you will investigate a Microsoft Sentinel incident by reviewing it
 
    ![](../media/7-1.png)
 
+   >**Note**: If you do not see the page in the Microsoft Sentinel portal, try refreshing the browser. Wait 5 minutes and refresh again until it appears.
+
     >**Note:** The Analytics rules are generating alerts and incidents on the same specific log entry. Remember that this was done in the *Query scheduling* configuration to generate more alerts and incidents to be utilized in the lab.
   
 1. Select one of the **Startup RegKey (1)** incidents. click on the **<< (2)** icon appear on the right side.Review the incident details on the right blade that opened. Scroll down and select the **View full details (3)** button.
