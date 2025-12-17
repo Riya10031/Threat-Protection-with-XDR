@@ -78,7 +78,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
     ![](../media/Lab01-task2-informational.png)
 
-    <validation step="08faf6a7-9700-4ffa-85a4-de53afb85777" />
+    <validation step="5cb2e18c-67c5-4b98-893d-74757b9f6a2a" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
