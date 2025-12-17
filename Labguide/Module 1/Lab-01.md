@@ -64,7 +64,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
     ![](../media/dataconnector.png)
 
-    >**Note**: If you do not see the page in the Microsoft Sentinel portal, try refreshing the browser. Wait 5 minutes and refresh again until it appears
+    >**Note**: If you do not see the page in the Microsoft Sentinel portal, try refreshing the browser. Wait 5 minutes and refresh again until it appears.
 
 1. In the **threat management** section, choose **Incidents** from the left panel to assess detected security incidents and alerts.
 
