@@ -4,15 +4,15 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/refs/heads/module-wise/Labguide/GettingStarted.md",
+        "RawFilePath": https://raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/refs/heads/Cybervance/Labguide/GettingStarted.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/refs/heads/module-wise/Labguide/Module%201/Lab-01.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/refs/heads/Cybervance/Labguide/Module%201/Lab-01.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/refs/heads/module-wise/Labguide/Module%201/Lab-02.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/refs/heads/Cybervance/Labguide/Module%201/Lab-02.md",
         "Order": 3
       }
     ]
