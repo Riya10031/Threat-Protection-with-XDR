@@ -144,7 +144,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 
    ![Lab overview.](../media/s21.png)
 
-    <validation step="26e090d3-6f07-4356-8b15-e42c6b478ea0" />
+    <validation step="f4206fb0-ae39-456e-9b25-4c6c6a19a440" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
