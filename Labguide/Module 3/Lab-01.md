@@ -61,7 +61,7 @@ In this task, you will configure Microsoft Sentinel to monitor Windows security 
 
     ![Picture 1](../media/lab2-task1-streamevents.png)
 
-   <validation step="13a30bee-c2ea-4d84-aff5-94791bc2ec08" />
+   <validation step="960b1946-fa10-427b-89a0-155b4eee3ce4" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
