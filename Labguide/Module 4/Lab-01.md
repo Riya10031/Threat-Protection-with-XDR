@@ -26,7 +26,7 @@ In this task, you'll configure the connector to ensure seamless log transmission
 
 1. In the Search bar of the Azure portal, type **Microsft Sentinel (1)**, then select **Microsoft Sentinel (2)**.
 
-    ![](../media/09.png) 
+    ![](../media/t2.png) 
 
 1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 
@@ -36,7 +36,7 @@ In this task, you'll configure the connector to ensure seamless log transmission
 
     ![Picture 1](../media/go_to_content.png)
 
-1. In search bar **windows security events (1)** , Select **windows security events (2)**, Choose **Install**.
+1. In search bar **windows security events (1)** , Select **windows security events (2)**, Choose **Install (3)**.
 
     ![Picture 1](../media/windows_security.png)
 
@@ -70,38 +70,39 @@ In this task, you'll configure the connector to ensure seamless log transmission
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 
-1. In the search bar of the Azure portal, type **Microsoft Defender for Cloud (1)**, then select **Microsoft Defender for Cloud (2)**.
+1. In the search bar of the Azure portal, type **Defender (1)**, then select **Microsoft Defender for Cloud (2)**.
 
-    ![Picture 1](../media/Lab-02-task2-search.png) 
+    ![Picture 1](../media/s12.png) 
 
-1. Click the left menu, and then click on **Getting Started**.
+1. When prompted, click **Enable** to activate Defender CSPM.
+     
+   ![Picture 1](../media/gg-1-2.png)
 
-1. On the **Getting started** page, under the **Upgrade** tab, ensure your subscription is selected, and then click the **Upgrade** button at the bottom of the page. Please wait for 2-5 minutes for the process to complete, as it may take some time.
+   > **Note:** If you don’t see the pop-up prompt, simply continue and follow the lab guide steps as shown below.
 
-    ![Picture 1](../media/Lab-02-task2-upgrade.png)
+   >**Note:** This enables advanced posture capabilities like attack path analysis and permissions management.
 
-   > **Note**: If you face some errors while upgrading the plan, please ignore them and proceed with the next step.
+1. In the **Microsoft Defender for Cloud** page, under **Management**, select **Environment settings (1)**, expand **Azure** and **Tenant Root Group**, then select **Subscription (2)**.
 
-4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
+   ![Picture 1](../media/gg-1-3.png)
 
-1. Click on the subscription (or its equivalent name in your language). 
+1. On the **Settings & monitoring** page, turn **On (1)** the toggle for **Foundational CSPM** and **On (2)** for **Servers** under Cloud Workload Protection, then click **Save (3)**.
 
-1. Review the Azure resources that are now protected with the Defender for Cloud plans.
+   ![Picture 1](../media/t3_g_e2_16.png)
 
-1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
- 
-    ![Picture 1](../media/Lab-02-task2-reviewplans.png) 
+1. Click **Environment settings** in the top to return to the environment settings page.
 
-1. Check that the **Log Analytics agent/Azure Monitor agent** is turned **On**. Then, click Continue or close the Settings & Monitoring page by selecting the 'X' in the upper right corner.
+   ![Picture 1](../media/t3_g_e2_17.png)
 
-    ![Picture 1](../media/Log_Analytics_Enable_1_new.png) 
+1. On the **Environment settings** page, expand **your subscription (1)**, and select **loganalycticworkspace (2)**.
 
-1. Choose the newly created Log Analytics workspace to collect all security event data from the machines for analysis. Click **Apply** and then **Continue**. Finally, click **Save** to apply the changes. 
+   ![Picture 1](../media/t3_g_e2_18.png)
 
-   ![Picture 1](../media/log1.png)
+1. On the **Select Defender plan** page, turn **On (1)** the toggles for **Foundational CSPM** and **Servers**, then click **Save (2)**.
 
-1. Close the settings page by selecting the 'X' on the upper right of the page.
+   ![Picture 1](../media/t3_g_e2_19.png)
 
+1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
 ### Task 3: Persistence Attack with Registry Key Add 
 
  In this task, you'll analyze how attackers leverage registry keys to establish persistence and explore methods to detect and mitigate such threats.
@@ -220,6 +221,8 @@ In this task, you'll examine the techniques used in such attacks and develop str
 
    ![VMrdp](../media/vm3.png)
 
+1. When prompted, click in **Keep it**.
+
 1. Open the downloaded RDP file from the downloads.
 
    ![VMrdp](../media/vm4.png)
@@ -276,7 +279,11 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select **Logs** under the General section from the left menu.
 
-1. Enter the following KQL Statement in the New Query 1 space:
+>**Note**: If you do not see the page in the Microsoft Sentinel portal, try refreshing the browser. Wait 5 minutes and refresh again until it appears.
+
+1. Select from the right **KQL Mode**.
+
+1. Enter the following KQL Statement in the New Query 1 space and click on **Run**:
 
    >**Important:** Please paste any KQL queries first in Notepad and then copy from there to the New Query 1 Log window to avoid any errors.
 
@@ -448,6 +455,10 @@ In this task, you will use a Search job to look for a C2.
 
 1. In Microsoft Sentinel, on the left menu under General, select the **Search**. In the search box, enter **reg.exe**, and then click on **Start**.
 
+1.  Select the **KQL Mode** from the drop-down.
+
+>**Note**: If you do not see the page in the Microsoft Sentinel portal, try refreshing the browser. Wait 5 minutes and refresh again until it appears. 
+
     ![Picture 1](../media/lab09-task3-search.png)
 
 1. A new window running the query opens. Select the ellipsis icon **(...)** from the top right and then toggle the **Search job mode**.
@@ -503,10 +514,9 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. In the command bar, to the right of the **Compute instance:**  selector, select the **+New** to create a new Azure ML Compute Instance.
 
-      ![Picture 1](../media/compute.png)
+   ![Picture 1](../media/compute.png)
 
-
-    >**Note:** You can have more screen space by hiding the Azure ML Studio left blade by selecting the 3 lines on the top left, as well as the Notebooks Files by selecting the **<<** icon.
+   >**Note:** You can have more screen space by hiding the Azure ML Studio left blade by selecting the 3 lines on the top left, as well as the Notebooks Files by selecting the **<<** icon.
 
 1. Type a unique name in the *Compute name* field. This will identify your compute instance.
 
