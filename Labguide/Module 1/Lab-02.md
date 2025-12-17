@@ -198,7 +198,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. On the Logic App page for *PostMessageTeams-OnIncident*, in the center menu, select **Edit**.
    
-   ![Lab overview.](../media/Lab03-task1-001.png) 
+   [Lab overview.](../media/Lab03-task1-001.png) 
 
 1. Select the *first* block **Microsoft Sentinel Incident**.
 
@@ -240,15 +240,15 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
    **Email/Username**: <inject key="AzureAdUserEmail"></inject>
 
-     ![](../media/login2.png)
+   ![](../media/login2.png)
 
 1. Enter the following **Password** and click on **Sign in**. 
    
     **Password**: <inject key="AzureAdUserPassword"></inject>
 
-     ![](../media/s1.png) 
+   ![](../media/s1.png) 
 
-    >**Note:** Take a moment to allow the option panel to fully load on the security portal.
+   >**Note:** Take a moment to allow the option panel to fully load on the security portal.
 
 1. Navigate to **Assets** from left panel and click on **Devices** and, wait for few minutes to get loaded once loading completed refresh the page.
 
@@ -264,7 +264,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. In the Onboard a device' section, ensure that 'Local Script (for up to 10 devices)' is visible in the Deployment method drop-down, then click the **Download onboarding package** button.
 
-    ![](../media/s24.png) 
+   ![](../media/s24.png) 
 
 1. In the *Downloads* pop-up, use your mouse to select the 'WindowsDefenderATPOnboardingPackage.zip' file, and then click on the folder icon for **Show in folder**. **Hint:** If you can't locate it, the file should be in the 'c:\users\admin\downloads' directory.
 
