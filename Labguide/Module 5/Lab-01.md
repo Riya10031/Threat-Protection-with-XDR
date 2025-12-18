@@ -133,43 +133,33 @@ In this task, you will manage the incidents in the M365 Defender portal.
 In this task, you will investigate and mitigate the alerts through recommendations by Microsoft Defender.
 
 1. In the Microsoft Defender portal, navigate to the **Alerts** tab from the sidebar menu.
-
    ![Lab overview.](../media/lab10-task2-alertsv1.png)
 
 1. You can click on any of these alerts to view the full details. Click on the alert named **Suspicious PowerShell command line**.
 
 1. Click on **Maximize** to view the full alert details.
-
    ![Lab overview.](../media/lab10-task2-alerts-maxv1.png)
 
 1. Click on the drop-down for the first suspicious behavior to fully investigate the root cause for this activity.
-
    ![Lab overview.](../media/lab10-task2-alerts-max01v1.png)
 
 1. You can see that this suspicious behavior was reported when the user ran a certain command. 
-
    ![Lab overview.](../media/lab10-task2-alerts-max02v1.png)
 
 1. Click on the ellipses and then select **Go Hunt**. This will redirect you to a new tab of **Advanced Hunting** where you can run the query and get the results.
-
    ![Lab overview.](../media/lab10-task2-alerts-hunt.png)
-
    ![Lab overview.](../media/lab10-task2-alerts-hunt01v1.png)
 
 1. You can also investigate the alert further by navigating back to the alerts and clicking on **Deep analysis**.
-
    ![Lab overview.](../media/lab10-task2-alerts-deep-analysisv1.png)
 
 1. You will be redirected to a new tab. Click on **Submit** to get the detailed analyzed file.
-
    ![Lab overview.](../media/lab10-task2-alerts-deep-analysis01.png)
 
 1. This process will take some time, after which you can see the deep analysis of the alert and further investigate it.
-
    ![Lab overview.](../media/lab10-task2-alerts-deep-analysis02v1.png)
 
 1. Microsoft Defender also provides recommendations to mitigate the alerts. On the alert details page, click on the **Recommendations** tab to view all the recommendations.
-
    ![Lab overview.](../media/lab10-task2-alerts-recommendationsv1.png)
 
 ## Summary
