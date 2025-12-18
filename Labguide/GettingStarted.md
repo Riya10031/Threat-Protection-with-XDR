@@ -59,13 +59,13 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
  
-![Explore Lab Resources](./media/XDRintro2.png)
+![Explore Lab Resources](./media/t10.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![Use the Split Window Feature](./media/XDRintro3.png)
+![Use the Split Window Feature](./media/t9.png)
  
 ## Managing Your Virtual Machine
  
@@ -101,7 +101,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/sc900-image-2.png)
+     ![Enter Your Password](./media/t1.png)
  
 4. If you see the pop-up Action Required, click Ask Later.
 
