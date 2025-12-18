@@ -1,6 +1,6 @@
 # Lab 01 - Conduct attacks
 
-### Estimated Duration: 90 minutes
+### Estimated Duration: 90 Minutes
 
 In this lab, you will simulate various attacks to detect and investigate in Microsoft Defender. Tasks include connecting Windows security events, enabling Microsoft Defender for Cloud, performing attacks such as persistence with registry keys, command and control via DNS, privilege escalation with user addition, and creating a playbook in Microsoft Sentinel.
 
