@@ -83,7 +83,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. In the Microsoft 365 Defender portal, navigate to the left-hand menu, and under the **Assets** area, select **Devices**. If the device is not shown, proceed with the next task and return to check it later. It can take up to 60 minutes for the first device to be displayed in the portal.
 
-    ![](../media/Onboard.png) 
+    ![](../media/Onboardv1.png) 
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
