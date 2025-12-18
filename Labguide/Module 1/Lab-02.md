@@ -15,6 +15,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
  
 
 ## Architecture Diagram
+
  ![Lab overview.](../media/XDR-Lab-02.png)
 
 ### Task 1: Connect the Windows security event connector
@@ -166,7 +167,7 @@ In this task, you will create a Logic App that is used as a Playbook in Microsof
 
 1. In the readme.md box, scroll down to the *Quick Deployment* section, **Deploy with incident trigger (recommended)** and select the **Deploy to Azure** button.
 
-   ![Lab overview.](../media/lab03-task02-githubplaybook.png)
+      ![Lab overview.](../media/lab03-task02-githubplaybook.png)
 
 1. Make sure your Azure Subscription is selected.
 
