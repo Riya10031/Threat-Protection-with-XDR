@@ -105,7 +105,6 @@ In this task, you will manage the incidents in the M365 Defender portal.
 1. In the **Enter password** dialog box, copy and paste * Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
 
 1. From the sidebar menu, In **Investigation & response** section expand **Incidents and Alerts**, select **Incidents**. Click on the incident created.
-
    >**Note:** It may take 24-48 hours for incidents to appear in the Defender portal. If they are not generated within the lab timeframe, you can follow the steps below for an overview on how to manage incidents. Alternatively, you can visit the **Alerts** page under **Incidents and Alerts** to check for any alerts related to the incident, as alerts might be generated during the lab timeframe.
 
 1. To manage an incident, click on **Manage Incident** to edit the details of this incident.
