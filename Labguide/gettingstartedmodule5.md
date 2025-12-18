@@ -105,7 +105,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/sc900-image-2.png)
+     ![Enter Your Password](./media/azurepwlogin.png)
  
 4. If you see the pop-up Action Required, click Ask Later.
 
