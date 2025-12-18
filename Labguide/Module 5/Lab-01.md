@@ -108,24 +108,31 @@ In this task, you will manage the incidents in the M365 Defender portal.
    >**Note:** It may take 24-48 hours for incidents to appear in the Defender portal. If they are not generated within the lab timeframe, you can follow the steps below for an overview on how to manage incidents. Alternatively, you can visit the **Alerts** page under **Incidents and Alerts** to check for any alerts related to the incident, as alerts might be generated during the lab timeframe.
 
 1. To manage an incident, click on **Manage Incident** to edit the details of this incident.
+
 ![Lab overview.](../media/lab10-task1-managev1.png) 
 
 1. Here, you can edit the name of the incident, add tags, assign it to an existing group or a user, change the status, classify the incident as required, and even add comments.
+
 ![Lab overview.](../media/lab10-task1-manage01v1.png)
 
 1. In the incident, the **Attack Story** tab provides a summary of the alerts and the incident graph on how these alerts are mapped.
+
 ![Lab overview.](../media/lab10-task1-attackstoryv1.png)
 
 1. You can further investigate these alerts by navigating to the **Alerts** tab.
+
 ![Lab overview.](../media/lab10-task1-alertsv1.png)
 
 1. You can also see the devices and users affected by this incident in the **Assets** tab. You can verify that the affected device is **svm-<inject key="DeploymentID" enableCopy="false" />** and the user is **demouser**.
+
 ![Lab overview.](../media/lab10-task1-assestsv1.png)
 
 1. The **Evidence & Responses** tab shows the initial evidence investigated by Microsoft Defender which includes the processes, IP addresses, and registry values.
+
 ![Lab overview.](../media/lab10-task1-evidencesv1.png)
 
 1. The **Summary** tab gives us a summarized report of the incident including active alerts & their category, incident information, scope, and much more.
+
 ![Lab overview.](../media/lab10-task1-summaryv1.png)
 
 ### Task 3: Investigate Alerts
