@@ -1,5 +1,7 @@
-# Threat Protection with XDR - Review and explore sentinel workspace and Integrate Logic App with Threat Protection and XDR - 1 & 2
-### Overall Estimated Duration: 150 minutes
+# Threat Protection with XDR - Review and explore Sentinel workspace and Integrate Logic App with Threat Protection and XDR - 1 & 2
+
+### Overall Estimated Duration: 3 Hours
+
 ## Overview
 
 In this lab, you will explore the integration of Azure Sentinel, Microsoft Defender, and Logic Apps to enhance security operations and automate threat response. You will begin by reviewing and managing a pre-configured Azure Sentinel workspace, where you will investigate security incidents, configure automated responses, and analyze data to strengthen threat detection and response capabilities. Next, you will integrate Logic Apps with Threat Protection and Extended Detection and Response (XDR) solutions, enabling the creation of automated workflows and playbooks that streamline security alerts and actions. Additionally, you will configure connectors, onboard devices, and interact with Microsoft Defender for Cloud, providing you with practical experience in automating and centralizing threat intelligence and response.
@@ -59,13 +61,13 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
  
-![Explore Lab Resources](./media/XDRintro2.png)
+![Explore Lab Resources](./media/t10.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![Use the Split Window Feature](./media/XDRintro3.png)
+![Use the Split Window Feature](./media/t9.png)
  
 ## Managing Your Virtual Machine
  
@@ -101,7 +103,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/sc900-image-2.png)
+     ![Enter Your Password](./media/t1.png)
  
 4. If you see the pop-up Action Required, click Ask Later.
 

@@ -1,6 +1,6 @@
 # Lab 02 - Integrate Logic App with Threat Protection and XDR
 
-## Estimated Duration: 120 minutes
+## Estimated Duration: 120 Minutes
 
 The integration of a Logic App with Threat Protection involves configuring triggers and actions to receive alerts, while interaction with XDR solutions requires adding actions to exchange data, perform analyses, and trigger responses. Implementing conditional checks and logic within the Logic App allows for tailored handling of received threat information, ensuring effective responses and workflow execution before thorough testing and deployment to production environments. 
 

@@ -1,6 +1,6 @@
 # Lab 02 - Create Detections
 
-### Estimated Duration: 30 minutes
+### Estimated Duration: 30 Minutes
 
 You are a Security Operations Analyst working at a company that implemented Microsoft Sentinel. You are going to work with Log Analytics KQL queries and from there, you will create custom analytics rules to help discover threats and anomalous behaviors in your environment.
 
