@@ -45,13 +45,13 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
    >**Note:** If you do not see the **Endpoints** option under Settings, log out by selecting the top-right circle with your account initials and select Sign out. Other options that you might want to try are to refresh the page with Ctrl+F5 wait for 30-45 minutes or open the page InPrivate. Login again with the Tenant Email credentials.
 
-1. Navigate to the **Onboarding** option in the Device Management section.
+1. Navigate to the **Onboarding** option under the **Device Management** section.
 
 1. In the '1. Onboard a device' section, ensure that 'Local Script (for up to 10 devices)' is visible in the Deployment method drop-down, then click the **Download onboarding package** button.
 
     ![](../media/lab01-task3-localscript.png) 
 
-1. In the *Downloads* pop-up, use your mouse to select the 'WindowsDefenderATPOnboardingPackage.zip' file, and then click on the folder icon for **Show in folder**. **Hint:** If you can't locate it, the file should be in the 'C:\Users\demouser\Downloads' directory.
+1. In the *Downloads* pop-up, use your mouse to select the 'GatewayWindowsDefenderATPOnboardingPackage' file, and then click on the folder icon for **Show in folder**. **Hint:** If you can't locate it, the file should be in the 'C:\Users\demouser\Downloads' directory.
 
     ![](../media/lab01-task3-downloadspopup.png)
 
@@ -65,13 +65,13 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Once again, right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** and opt for **Run as Administrator**. **Hint:** If the Windows SmartScreen window appears, click on **More info**, and then select **Run anyway**.
     
-1. When the "User Account Control" window appears, select **Yes** to allow the script to run, answer **Y** to the question presented by the script, and press **Enter**. Once complete, you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
+1. When the "User Account Control" window appears, select **Yes** to allow the script to run, answer **Y** to the question presented by the script, and press **Enter**. Once complete, you should see a message in the command screen that says **Successfully onboarded machine to Microsoft Defender for Endpoint**.
 
 1. Press any key to continue. This action will close the Command Prompt window.
 
     ![](../media/SC-200-img25.png)
 
-1. Back on the Onboarding page within the Microsoft 365 Defender portal, navigate to the "2. Run a detection test" section and copy the detection test script by clicking the **Copy** button.
+1. Back on the Onboarding page within the Microsoft 365 Defender portal, navigate to the **"2. Run a detection test"** section and copy the detection test script by clicking the **Copy** button.
 
     ![](../media/lab01-task3-runscript.png) 
 
@@ -104,7 +104,7 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. In the **Enter password** dialog box, copy and paste * Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
 
-1. From the sidebar menu, under **Incidents and Alerts**, select **Incidents**. Click on the incident **Created**.
+1. From the sidebar menu, In **Investigation & response** section expand **Incidents and Alerts**, select **Incidents**. Click on the incident created.
 
     >**Note:** It may take 24-48 hours for incidents to appear in the Defender portal. If they are not generated within the lab timeframe, you can follow the steps below for an overview on how to manage incidents. Alternatively, you can visit the **Alerts** page under **Incidents and Alerts** to check for any alerts related to the incident, as alerts might be generated during the lab timeframe.
 
