@@ -37,11 +37,11 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Click on the **Assets** section on the left menu bar and expand **Assets** and choose **Devices**. You will see **Hang on! We're preparing new spaces for your data and connecting them** notification. Wait for the Device Inventory page to fully load.
 
-    ![](../media/new-xdr-lab5-1.jpg)
+    ![](../media/new-xdr-lab5-1v1.jpg)
 
 1. Click on **System (1)** to expand the dropdown, then select **Settings (2)** from the left-hand menu. On the Settings page, choose **Endpoints (3)**.
 
-    ![](../media/new-xdr-lab5-2.jpg)
+    ![](../media/new-xdr-lab5-2v1.jpg)
 
    >**Note:** If you do not see the **Endpoints** option under Settings, log out by selecting the top-right circle with your account initials and select Sign out. Other options that you might want to try are to refresh the page with Ctrl+F5 wait for 30-45 minutes or open the page InPrivate. Login again with the Tenant Email credentials.
 
@@ -49,15 +49,15 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. In the '1. Onboard a device' section, ensure that 'Local Script (for up to 10 devices)' is visible in the Deployment method drop-down, then click the **Download onboarding package** button.
 
-    ![](../media/lab01-task3-localscript.png) 
+    ![](../media/lab01-task3-localscriptv1.png) 
 
 1. In the *Downloads* pop-up, use your mouse to select the 'GatewayWindowsDefenderATPOnboardingPackage' file, and then click on the folder icon for **Show in folder**. **Hint:** If you can't locate it, the file should be in the 'C:\Users\demouser\Downloads' directory.
 
-    ![](../media/lab01-task3-downloadspopup.png)
+    ![](../media/lab01-task3-downloadspopupv1.png)
 
 1. Right-click on the downloaded zip file, choose **Extract All...**, ensure that **Show extracted files when complete** is checked, and then click **Extract**.
 
-    ![](../media/lab01-task3-zipfile.png) 
+    ![](../media/lab01-task3-zipfilev1.png) 
 
 1. Right-click on the extracted file 'WindowsDefenderATPLocalOnboardingScript.cmd' and choose **Properties**. Tick the **Unblock** checkbox located in the bottom right of the Properties window, and then click **OK**.
 
@@ -110,31 +110,31 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. To manage an incident, click on **Manage Incident** to edit the details of this incident.
 
-    ![Lab overview.](../media/lab10-task1-manage.png) 
+    ![Lab overview.](../media/lab10-task1-managev1.png) 
 
 1. Here, you can edit the name of the incident, add tags, assign it to an existing group or a user, change the status, classify the incident as required, and even add comments.
 
-    ![Lab overview.](../media/lab10-task1-manage01.png)
+    ![Lab overview.](../media/lab10-task1-manage01v1.png)
 
 1. In the incident, the **Attack Story** tab provides a summary of the alerts and the incident graph on how these alerts are mapped.
 
-    ![Lab overview.](../media/lab10-task1-attackstory.png)
+    ![Lab overview.](../media/lab10-task1-attackstoryv1.png)
 
 1. You can further investigate these alerts by navigating to the **Alerts** tab.
 
-    ![Lab overview.](../media/lab10-task1-alerts.png)
+    ![Lab overview.](../media/lab10-task1-alertsv1.png)
 
 1. You can also see the devices and users affected by this incident in the **Assets** tab. You can verify that the affected device is **svm-<inject key="DeploymentID" enableCopy="false" />** and the user is **demouser**.
 
-   ![Lab overview.](../media/lab10-task1-assests.png)
+   ![Lab overview.](../media/lab10-task1-assestsv1.png)
 
 1. The **Evidence & Responses** tab shows the initial evidence investigated by Microsoft Defender which includes the processes, IP addresses, and registry values.
 
-    ![Lab overview.](../media/lab10-task1-evidences.png)
+    ![Lab overview.](../media/lab10-task1-evidencesv1.png)
 
 1. The **Summary** tab gives us a summarized report of the incident including active alerts & their category, incident information, scope, and much more.
 
-    ![Lab overview.](../media/lab10-task1-summary.png)
+    ![Lab overview.](../media/lab10-task1-summaryv1.png)
 
 ### Task 3: Investigate Alerts
 
@@ -142,31 +142,31 @@ In this task, you will investigate and mitigate the alerts through recommendatio
 
 1. In the Microsoft Defender portal, navigate to the **Alerts** tab from the sidebar menu.
 
-    ![Lab overview.](../media/lab10-task2-alerts.png)
+    ![Lab overview.](../media/lab10-task2-alertsv1.png)
 
 1. You can click on any of these alerts to view the full details. Click on the alert named **Suspicious PowerShell command line**.
 
 1. Click on **Maximize** to view the full alert details.
 
-    ![Lab overview.](../media/lab10-task2-alerts-max.png)
+    ![Lab overview.](../media/lab10-task2-alerts-maxv1.png)
 
 1. Click on the drop-down for the first suspicious behavior to fully investigate the root cause for this activity.
 
-    ![Lab overview.](../media/lab10-task2-alerts-max01.png)
+    ![Lab overview.](../media/lab10-task2-alerts-max01v1.png)
 
 1. You can see that this suspicious behavior was reported when the user ran a certain command. 
 
-    ![Lab overview.](../media/lab10-task2-alerts-max02.png)
+    ![Lab overview.](../media/lab10-task2-alerts-max02v1.png)
 
 1. Click on the ellipses and then select **Go Hunt**. This will redirect you to a new tab of **Advanced Hunting** where you can run the query and get the results.
 
     ![Lab overview.](../media/lab10-task2-alerts-hunt.png)
 
-    ![Lab overview.](../media/lab10-task2-alerts-hunt01.png)
+    ![Lab overview.](../media/lab10-task2-alerts-hunt01v1.png)
 
 1. You can also investigate the alert further by navigating back to the alerts and clicking on **Deep analysis**.
 
-    ![Lab overview.](../media/lab10-task2-alerts-deep-analysis.png)
+    ![Lab overview.](../media/lab10-task2-alerts-deep-analysisv1.png)
 
 1. You will be redirected to a new tab. Click on **Submit** to get the detailed analyzed file.
 
@@ -174,11 +174,11 @@ In this task, you will investigate and mitigate the alerts through recommendatio
 
 1. This process will take some time, after which you can see the deep analysis of the alert and further investigate it.
 
-    ![Lab overview.](../media/lab10-task2-alerts-deep-analysis02.png)
+    ![Lab overview.](../media/lab10-task2-alerts-deep-analysis02v1.png)
 
 1. Microsoft Defender also provides recommendations to mitigate the alerts. On the alert details page, click on the **Recommendations** tab to view all the recommendations.
 
-    ![Lab overview.](../media/lab10-task2-alerts-recommendations.png)
+    ![Lab overview.](../media/lab10-task2-alerts-recommendationsv1.png)
 
 ## Summary
 
