@@ -167,7 +167,7 @@ In this task, you will create a Logic App that is used as a Playbook in Microsof
 
 1. In the readme.md box, scroll down to the *Quick Deployment* section, **Deploy with incident trigger (recommended)** and select the **Deploy to Azure** button.
 
-      ![Lab overview.](../media/lab03-task02-githubplaybook.png)
+   ![Lab overview.](../media/lab03-task02-githubplaybook.png)
 
 1. Make sure your Azure Subscription is selected.
 
@@ -245,7 +245,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Enter the following **Password** and click on **Sign in**. 
    
-    **Password**: <inject key="AzureAdUserPassword"></inject>
+   **Password**: <inject key="AzureAdUserPassword"></inject>
 
    ![](../media/s1.png) 
 
