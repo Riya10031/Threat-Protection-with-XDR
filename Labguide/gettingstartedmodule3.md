@@ -1,11 +1,11 @@
 # Threat Protection with XDR - Conduct attacks and Investigate an Incident - 3
-### Overall Estimated Duration: 140 minutes
-## Overview
 
+### Overall Estimated Duration: 2 Hours
+
+## Overview
 In this lab, you will explore the integration of Microsoft Sentinel, Microsoft Defender, and KQL-based detections to enhance security operations and automate incident investigation. You will begin by creating custom analytics rules in Microsoft Sentinel to detect persistence and privilege elevation attacks, using KQL queries to identify and respond to threats in your environment. Next, you will investigate incidents triggered by these rules, reviewing details, changing incident status, and executing automated responses with playbooks. This lab provides practical experience in building threat detections, automating alerts, and investigating incidents, helping you strengthen your organization’s security posture and response capabilities.
 
 ## Objective
-
 Understand how to simulate and detect various cyber attacks using Microsoft Defender and Microsoft Sentinel. Gain skills in connecting Windows security events, performing attack simulations, and analyzing alerts. By the end of this lab, you will be able to:
 
 - **Conduct Attacks**: Understand how to simulate various attacks to comprehend threat detection and investigation processes within Microsoft Defender. You will explore attack techniques like persistence and privilege escalation to enhance your knowledge of security operations.
@@ -57,13 +57,13 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
  
-![Explore Lab Resources](./media/XDRintro2.png)
+![Explore Lab Resources](./media/t10.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![Use the Split Window Feature](./media/XDRintro3.png)
+![Use the Split Window Feature](./media/t9.png)
  
 ## Managing Your Virtual Machine
  
@@ -99,7 +99,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/sc900-image-2.png)
+     ![Enter Your Password](./media/t1.png)
  
 4. If you see the pop-up Action Required, click Ask Later.
 
