@@ -25,13 +25,13 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-     ![](../media/login2.png)
+     ![](../media/sc900-image-1.png)
 
 1. Enter the following **Password** and click on **Sign in**. 
    
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-     ![](../media/Lab-01-task1-password.png) 
+     ![](../media/azurepwlogin.png) 
 
     >**Note:** Take a moment to allow the option panel to fully load on the security portal.
 
