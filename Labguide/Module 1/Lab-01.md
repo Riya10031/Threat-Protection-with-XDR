@@ -28,17 +28,13 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-     ![](../media/login2.png)
+     ![](../media/u50.png)
 
-1. Enter the following **Password** and click on **Sign in**. 
+1. Enter the following **Temporary Access Pass** and click on **Sign in**. 
    
-    * Password: <inject key="AzureAdUserPassword"></inject>
+    * Temporary Access Pass: <inject key="AzureAdUserPassword"></inject>
 
-      ![](../media/Lab-01-task1-password.png)
-
-1. If you see the pop-up **Action Required**, click **Ask Later**.
-
-      ![](../media/action.png)     
+      ![](../media/password-1211.png)   
     
 1. First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on No.
    
@@ -54,15 +50,11 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 
-    ![](../media/Lab01-task2-loganalyticworkspace.png) 
+    ![](../media/Lab01-task2-loganalyticworkspace.png)
 
-1. Explore the **Overview** page to obtain a summary of the workspace, including information on incidents, alerts, health, and other essential details.
+1. Navigate to the **Data connectors (2)** under **configuration (1)** section in the left sidebar and examine the currently configured connectors for collecting security-related data.
 
-    ![](../media/lab01-task2-overview.png)
-
-1. Navigate to the **Data connectors** under **configuration** section in the left sidebar and examine the currently configured connectors for collecting security-related data.
-
-    ![](../media/dataconnector.png)
+    ![](../media/img-07.png)
 
 1. In the **threat management** section, choose **Incidents** from the left panel to assess detected security incidents and alerts.
 
