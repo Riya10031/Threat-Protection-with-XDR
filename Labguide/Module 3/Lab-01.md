@@ -21,9 +21,9 @@ In this lab, you will simulate various attacks to detect and investigate in Micr
 
 In this task, you will configure Microsoft Sentinel to monitor Windows security events by installing **Windows Security Events** and setting up the **Security Events Via Legacy Agent** connector. You'll install the agent on an Azure VM, select **All Events** to stream, and verify the connection.
 
-1. In the Search bar of the Azure portal, type *Microsft Sentinel (1)*, then select **Microsoft Sentinel (2)**.
+1. In the Search bar of the Azure portal, type *Sentinel (1)*, then select **Microsoft Sentinel (2)**.
 
-    ![](../media/09.png) 
+    ![](../media/img-01-117.png) 
 
 1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 

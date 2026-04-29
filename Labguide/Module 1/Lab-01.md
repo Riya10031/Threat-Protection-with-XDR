@@ -124,7 +124,7 @@ In this task, you will explore the Sentinel workspace to review and manage secur
 
     ![](../media/img-01-117.png)
 
-1. On the **Microsoft Sentinel** page **+ Create**. Enter the name as **loganalyticworkspace**. Select **Review + create** and select **Create** once done.
+1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 
     ![](../media/Lab01-task2-loganalyticworkspace.png)
 
