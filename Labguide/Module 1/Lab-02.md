@@ -119,7 +119,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
    ![](../media/t3_g_e2_19.png)
 
-1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the 
+1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
 
 ### Task 3: Create a Security Operations Center Team in Microsoft Teams.
 
