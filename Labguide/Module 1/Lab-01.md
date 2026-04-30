@@ -14,10 +14,6 @@ In this lab, you will perform the following:
 - Task 2: Onboard a Device
 - Task 3: Explore Sentinel workspace
 
-## Architecture Diagram
-
-  ![Lab overview.](../media/01-1.png)
-
 ## Task 1: Log in to Azure Portal
 
   In this task , you login to Azure Portal and allows you to manage and configure your cloud resources through a web-based interface.

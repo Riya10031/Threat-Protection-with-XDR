@@ -12,9 +12,6 @@ In this lab, you will perform the following:
 - Task 4: Create a Playbook in Microsoft Sentinel
 - Task 5: Update a Playbook in Microsoft Sentinel
 
-## Architecture Diagram
- ![Lab overview.](../media/XDR-Lab-02.png)
-
 ### Task 1: Connect the Windows security event connector
 
 In this task, you'll set up the connector to ensure effective log transmission and enhance your security monitoring framework.
@@ -121,7 +118,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
 
-### Task 3: Create a Security Operations Center Team in Microsoft Teams.
+### Task 3: Create a Security Operations Center Team in Microsoft Teams
 
 In this task, you will create a team in Microsoft Teams for use in the lab.  
 
