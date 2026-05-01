@@ -49,7 +49,7 @@ Welcome to your Threat protection with XDR workshop! We've prepared a seamless e
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
  
-![](./media/XDRintro1.png)
+![](./media/img-01-01.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -57,21 +57,21 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 ## Exploring Your Lab Resources
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** details tab.
  
-![Explore Lab Resources](./media/XDRintro2.png)
+![Explore Lab Resources](./media/img-01-02.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![Use the Split Window Feature](./media/XDRintro3.png)
+![Use the Split Window Feature](./media/img-01-03.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-![Manage Your Virtual Machine](./media/XDRintro4.png)
+![Manage Your Virtual Machine](./media/img-04.png)
 
 ## Lab validation
 
@@ -79,43 +79,33 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](./media/update03.png)
 
-2. You can also validate the task by navigating to the Lab Validation tab, from the upper right corner in the lab guide section.
-
-   ![](./media/update002.png)
-
-3. If you need any assistance, please contact us at labs-support@spektrasystems.com.
+1. If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com.
 
 ## Login to the Azure Portal
  
 1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser, which is created on the desktop.
  
-    ![Launch Azure Portal](./media/XDRintro5.png)
+    ![Launch Azure Portal](./media/img-05.png)
 
-2. On the Sign in to Microsoft Azure tab, you will see the login screen. Enter the following email or username, and click on Next.
+1. On the Sign in to Microsoft Azure tab, you will see the login screen. Enter the following email or username, and click on Next.
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
      ![Enter Your Username](./media/sc900-image-1.png)
  
-3. Next, provide your password:
+1. Next, provide your password:
  
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/sc900-image-2.png)
- 
-4. If you see the pop-up Action Required, click Ask Later.
+     ![Enter Your Password](./media/password-1211.png)
 
-   ![](./media/update04.png)
+1. If you see the pop-up Stay Signed in?, select No.
 
-   > **NOTE**: Do not enable MFA, select Ask Later.
+1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-5. If you see the pop-up Stay Signed in?, select No.
+1. If a Welcome to **Microsoft Azure** popup window appears, select **Maybe Later** to skip the tour.
 
-6. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
-
-7. If a Welcome to **Microsoft Azure** popup window appears, select **Maybe Later** to skip the tour.
-
-8. Now that you will see the Azure Portal Dashboard, click on Resource groups from the Navigate panel to see the resource groups.
+1. Now that you will see the Azure Portal Dashboard, click on Resource groups from the Navigate panel to see the resource groups.
 
    ![](./media/update05.png)  
  
@@ -127,11 +117,11 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
 
 Learner Support Contacts:
 
- - Email Support: labs-support@spektrasystems.com
+ - Email Support: cloudlabs-support@spektrasystems.com
  - Live Chat Support: https://cloudlabs.ai/labs-support
 
 Now, click on Next from the lower right corner to move on to the next page.
 
-![Start Your Azure Journey](./media/XDRintro6.png)
+![Start Your Azure Journey](./media/img-06.png)
 
 ## Happy Learning!!
