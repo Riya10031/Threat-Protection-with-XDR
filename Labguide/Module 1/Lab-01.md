@@ -42,7 +42,7 @@ In this lab, you will perform the following:
 
 In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
 
-1. Open a new tab and navigate to the **Microsoft Defender portal** by following the link:
+1. Open a new tab and navigate to the **Microsoft Defender** portal by following the link:
 
     ```
     https://security.microsoft.com

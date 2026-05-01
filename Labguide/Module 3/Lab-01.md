@@ -245,7 +245,7 @@ In this task, you will create a PowerShell script that simulates DNS queries to 
 
 ### Task 5: Privilege Elevation Attack with User Add
 
->**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
+>**Important:** The next steps are done on a different machine which is **s2vm-<inject key="DeploymentID" enableCopy="false" />** than the one you were previously working on. Look for the Virtual Machine name references.
 
 In this task, you will connect to a virtual machine using Remote Desktop from the Azure portal, download the RDP file, and log in with provided credentials. Once connected, you will use Command Prompt to create a temporary folder and simulate the creation of an admin account.
 
