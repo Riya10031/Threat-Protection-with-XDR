@@ -100,7 +100,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
    ![](../media/gg-1-3.png)
 
-1. On the **Settings | Defender plans** page, turn **On (1)** the toggle for **Foundational CSPM** and **On (2)** for **Servers** under Cloud Workload Protection, then click **Save (3)**.
+1. On the **Settings | Defender plans** page, turn **On (1)** the toggle for **Defender CSPM** and **On (2)** for **Servers** under Cloud Workload Protection, then click **Save (3)**.
 
    ![](../media/l1204.png)
 
@@ -108,13 +108,13 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
    ![](../media/t3_g_e2_17.png)
 
-1. On the **Environment settings** page, expand **Azure (1)**, then expand **Subscription** and select **loganalycticworkspace (2)**.
+1. On the **Environment settings** page, expand **Azure**, then expand **Subscription (1)** and select **loganalycticworkspace (2)**.
 
-   ![](../media/t3_g_e2_18.png)
+   ![](../media/image-03.png)
 
-1. On the **Select Defender plan** page, turn **On (1)** the toggles for **Foundational CSPM** and **Servers**, then click **Save (2)**.
+1. On the **Settings | Defender plans** page, turn **On (1)** the toggles for **Foundational CSPM** and **Servers**, then click **Save (2)**.
 
-   ![](../media/t3_g_e2_19.png)
+   ![](../media/image-04.png)
 
 1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
 
@@ -127,6 +127,8 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
     ```
     https://teams.microsoft.com/v2/
     ```
+
+    >**Note:** If any pop-ups appear, close all of them.
 
 1. From the left navigation menu, select **See all your teams (1)**. On the **Your teams and channels** page, select **Create team (2)**, and then select **Create team (3)**.
 
@@ -168,9 +170,7 @@ In this task, you will create a Logic App that is used as a Playbook in Microsof
 
     ![Lab overview.](../media/img-01-115.png)
 
-1. Next select the **SentinelSOARessentials** folder, then the **Playbooks** folder.
-
-1. Select the **Post-Message-Teams** folder.
+1. Next select the **SentinelSOARessentials** folder, then the **Playbooks** folder. Select the **Post-Message-Teams** folder.
 
 1. In the readme.md box, scroll down to the *Quick Deployment* section, **Deploy with incident trigger (recommended)** and select the **Deploy to Azure** button.
 
@@ -200,7 +200,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. From the left navigation menu, select **Automation (3)** under the **Configuration (2)** pane. On the **Automation** page, select the **Playbooks (4)** tab, and then select the **PostMessageTeams-OnIncident (5)** playbook to open the Logic App page.
 
-    ![Lab overview.](../media/img-01-118.png)
+    ![Lab overview.](../media/image-05.png)
 
 1. On the Logic app page for **PostMessageTeams-OnIncident**, select **Edit**.
    
@@ -229,6 +229,8 @@ In this task, you will update the new playbook you created with the proper conne
 1. Under the **Message** section, type **Entities: (1)** and select **Entities (2)** dynamic content from the right panel.
 
     ![Lab overview.](../media/img-01-127.png)
+
+1. On the dynamic content pane, search for **Entities (3)**, and select **Entities (4)**.
 
     ![Lab overview.](../media/img-01-126.png)
 

@@ -54,7 +54,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Navigate to **System (1)** in drop down select **Settings (2)** in the left menu bar, and then, on the Settings page, choose **Endpoints (3)**.
 
-   ![](../media/l1211.png)
+   ![](../media/image-07.png)
 
    > **Note:** The **Endpoints** option under **Settings** may take a few moments to appear after the initial setup.  
    > If you don't see it navigate to [https://security.microsoft.com/securitysettings/endpoints/integration](https://security.microsoft.com/securitysettings/endpoints/integration) to go to the Endpoints page.
@@ -113,7 +113,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. In the Microsoft Defender XDR portal, navigate to the left-hand menu, and under the **Assets (1)** area, select **Devices (2)**. If the device is not shown, proceed with the next task and return to check it later. It can take up to 60 minutes for the first device to be displayed in the portal.
 
-   ![](../media/l1223.png) 
+   ![](../media/image-06.png) 
 
    > **Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
@@ -124,6 +124,18 @@ In this task, you will explore the Sentinel workspace to review and manage secur
 1. In the Search bar of the Azure portal, type **Microsft Sentinel (1)**, then select **Microsoft Sentinel (2)**.
 
     ![](../media/img-01-117.png)
+
+1. On the **Microsoft Sentinel** page, select **+ Create** button.
+
+   ![](../media/image-08.png)
+
+1. On the **Add Microsoft Sentinel to a workspace** page, select **+ Create a new workspace**.
+
+   [](../media/image-09.png)
+
+1. On the **Create Log Analytics workspace** page, enter the following details, and select **Create** once done.
+
+   
 
 1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 
