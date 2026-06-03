@@ -121,7 +121,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 In this task, you will explore the Sentinel workspace to review and manage security data, alerts, and incident responses within Microsoft's Azure Sentinel.
 
-1. In the Search bar of the Azure portal, type **Microsft Sentinel (1)**, then select **Microsoft Sentinel (2)**.
+1. In the Search bar of the Azure portal, type **Sentinel (1)**, then select **Microsoft Sentinel (2)**.
 
     ![](../media/img-01-117.png)
 
@@ -131,21 +131,29 @@ In this task, you will explore the Sentinel workspace to review and manage secur
 
 1. On the **Add Microsoft Sentinel to a workspace** page, select **+ Create a new workspace**.
 
-   [](../media/image-09.png)
+   ![](../media/image-09.png)
 
 1. On the **Create Log Analytics workspace** page, enter the following details, and select **Create** once done.
 
-   
+   - **Subscription (1)**: Keep it as default 
+   - **Resource group (2)**: threat-xdr
+   - **Name (3)**: loganalyticworkspace
+   - **Region (4)**: Keep it as default
+   - Select **Review + Create (5)**
 
-1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
+      ![](../media/image-10.png)
+
+1. After creation of the Sentinel workspace, navigate back to the **Microsoft Sentinel** page, select **+ Create a new workspace** again, and add the newly created Sentinel workspace to Microsoft Sentinel.
+
+1. After adding the workspace select sentinel **loganalyticworkspace** from the available list.
 
     ![](../media/Lab01-task2-loganalyticworkspace.png)
 
-1. Navigate to the **Microsoft Defender** portal **Data connectors (2)** under **configuration (1)** section in the left sidebar and examine the currently configured connectors for collecting security-related data.
+1. On the **Microsoft Sentinel** page, select **Data connectors (2)** under **configuration (1)** section in the left sidebar and examine the currently configured **connectors (3)** for collecting security-related data.
 
-    ![](../media/img-01-123.png)
+    ![](../media/image-11.png)
 
-1. Expand **Investigation & response** section from the left, choose **Incidents** to assess detected security incidents and alerts.
+1. Navigate to the **Microsoft Defender** portal. Expand **Investigation & response** section from the left, choose **Incidents** to assess detected security incidents and alerts.
 
 1. Click on the status filter beside the search space, and then select the **Select all** checkbox to view all new, active, and closed incidents.
 

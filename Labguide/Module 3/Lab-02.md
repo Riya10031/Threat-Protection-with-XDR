@@ -78,7 +78,7 @@ In this task, you will create a detection for the first attack of the previous e
     |Entity|Identifier|Data Field|
     |:----|:----|:----|
     |Account|FullName|AccountCustomEntity|
-    |Host|Hostname|HostCustomEntity|
+    |Host|HostName|HostCustomEntity|
 
    ![](../media/cor_r_g_13.png)
 
@@ -169,14 +169,14 @@ In this task, you will create a detection for the second attack of the previous 
 
     |Setting|Value|
     |---|---|
-    |Name|**SecurityEvent Local Administrators User Add**|
-    |Description|**User added to Local Administrators group**|
-    |Severity|**High**|
-    |MITRE ATT&CK|**Privilege Escalation**|
+    |Name|**SecurityEvent Local Administrators User Add (1)**|
+    |Description|**User added to Local Administrators group (2)**|
+    |Severity|**High (3)**|
+    |MITRE ATT&CK|**Privilege Escalation (4)**|
   
-1. Select **Next: Set rule logic >** button. 
+1. Select **Next: Set rule logic > (5)** button. 
 
-   ![](../media/6-5.png)
+   ![](../media/image-25.png)
 
 
 1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, and add the details for entities under *Alert enhancement - Entity mapping* by selecting **+ Add new entity**.
@@ -184,7 +184,7 @@ In this task, you will create a detection for the second attack of the previous 
     |Entity|Identifier|Data Field|
     |:----|:----|:----|
     |Account|FullName|AccountCustomEntity|
-    |Host|Hostname|HostCustomEntity|
+    |Host|HostName|HostCustomEntity|
 
 1. For *Query scheduling* set the following:
 

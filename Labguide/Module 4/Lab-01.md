@@ -30,7 +30,7 @@ In this task, you'll configure the connector to ensure seamless log transmission
    - Select **Microsoft Sentinel (1)**.
    - Expand **Content management (2)** and select **Content hub (3)**.
 
-      ![](../media/t3_g_e1_22.png)
+      ![](../media/image-14.png)
 
 1. On the **Content hub** page, in the search bar, type **Windows Security Events (1)**, then select the checkbox for **Windows Security Events (2)** from the results.
 
@@ -58,31 +58,31 @@ In this task, you'll configure the connector to ensure seamless log transmission
 
 1. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine.
 
-   ![](../media/t3_g_e2_8.png)
+   ![](../media/image-15.png)
 
 1. On the virtual machine page, click **Connect** to link the VM to Log Analytics.
 
-   ![](../media/t3_g_e2_9.png)
+   ![](../media/image-16.png)
 
 1. Select the **Virtual Machine** link from the top.
 
-   ![](../media/t3_g_e2_10.png)
+   ![](../media/image-17.png)
 
 1. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine.
 
-   ![](../media/t3_g_e2_11.png)
+   ![](../media/image-18.png)
 
 1. On the second virtual machine page, click **Connect** to link the VM to Log Analytics.
 
-   ![](../media/t3_g_e2_12.png)
+   ![](../media/image-19.png)
 
 1. Select the **Virtual Machine** link from the top.
 
-   ![](../media/t3_g_e2_13.png)
+   ![](../media/image-20.png)
 
 1. Verify that both virtual machines **s2vm-<inject key="DeploymentID" enableCopy="false" />** and **svm-<inject key="DeploymentID" enableCopy="false" />** display **This workspace (1)** under the **Log Analytics Connection** column, then click **Security Events via Legacy Agent (2)** in the breadcrumb to return to the connector page.
 
-   ![](../media/t3_g_e2_14.png)
+   ![](../media/image-21.png)
 
 1. In the **Instructions** section, under **Select which events to stream**, choose **All Events (1)** and click **Apply changes (2)**.
 
@@ -120,7 +120,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. On the **Environment settings** page, expand **Azure (1)**, then expand **Subscription** and select **loganalycticworkspace (2)**.
 
-   ![](../media/t3_g_e2_18.png)
+   ![](../media/image-22.png)
 
 1. On the **Select Defender plan** page, turn **On (1)** the toggles for **Foundational CSPM** and **Servers**, then click **Save (2)**.
 
@@ -132,7 +132,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 In this task, you will create a temporary folder and a batch file using Command Prompt, then simulate program persistence by adding the file to the Windows startup process via the registry.
 
->**Note:** Perform this task in your LAB-VM (svm).
+>**Note:** Perform this task in your **svm-<inject key="DeploymentID" enableCopy="false" />**.
 
 > **⚠ Important Usage Guidance:** Microsoft Defender for Office 365 may take some time to load certain results or complete specific labs from the backend. This is expected behavior. If the data does not appear after a couple of refresh attempts, proceed with the next lab and return later to check the results.
 
@@ -238,11 +238,11 @@ In this task, you will connect to a virtual machine using Remote Desktop from th
 
 1. Select the virtual machine **s2vm-<inject key="DeploymentID" enableCopy="false" />** from the list.
    
-   ![VMrdp](../media/vm1.png)
+   ![VMrdp](../media/image-23.png)
 
-1. At the beginning of the virtual machine page, click on **Connect**, and from the drop-down select **Connect**.
+1. At the beginning of the virtual machine page, click on **Connect (1)**, and from the drop-down select **Connect (2)**.
 
-   ![VMrdp](../media/vm2.png)
+   ![VMrdp](../media/image-24.png)
 
 1. On the **s2vm-<inject key="DeploymentID" enableCopy="false" /> | Connect** page, under **Native RDP**, choose the option to **Download RDP File**.
 
@@ -357,7 +357,7 @@ In this task, you will connect to a virtual machine using Remote Desktop from th
 
 1. On the **Microsoft Sentinel** page, under **Threat management (1)**, select **Hunting (2)**, then click the **Queries (3)** tab.
 
-   ![](../media/ex3_g_tr_6.png)
+   ![](../media/image-27.png)
 
 1. Select the **Queries (1)** tab and then **+ New Query (2)** from the command bar.
 
@@ -503,11 +503,9 @@ In this task, you will use a Search job to look for a C2.
 
 In this task, you will explore using notebooks in Microsoft Sentinel.
 
-1. In the Microsoft Sentinel Workspace, select **Notebooks (1)** under the *Threat management* area.
+1. In the Microsoft Defender portal, select **Notebooks (2)** under the **Threat management (1)** area. Next, you need to create an AzureML Workspace. Select **Set up Azure Machine Learning workspace (3)**.
 
-1. Next, you need to create an AzureML Workspace. Select **Configure Azure Machine Learning (2)** and then select the **Create new Azure ML workspace (3)** button in the command bar.
-
-    ![Picture 1](../media/img-01-010.png) 
+    ![Picture 1](../media/image-28.png) 
 
 1. On the **Azure Machine Learning** page, enter the following details: 
 
@@ -531,23 +529,23 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
     >**Note:** It may take a few minutes to deploy the Machine Learning workspace.
 
-1. After the *Your deployment is complete* message appears, return to the **Microsoft Sentinel** portal.
+1. After the *Your deployment is complete* message appears, return to the **Microsoft Defender** portal.
 
 1. Select **Notebooks (1)** again and then select the **Templates (2)** tab from the middle command bar.
 
-    ![Picture 1](../media/img-01-105.png)
+    ![Picture 1](../media/image-29.png)
 
 1. On the **Templates** page, select **A Getting Started Guide for Microsoft Sentinel ML Notebooks**.
 
-    ![Picture 1](../media/img-01-106.png)
+    ![Picture 1](../media/image-30.png)
 
    >**Note:** If you face any issues or do not see any popup after clicking on opening the **A Getting Started Guide for Microsoft Sentinel**. please select the **MyNotebooks** Tab beside the Notebook tab and click on the Notebook( the Azure ML Workspace you created earlier) this might be named as **Untitled** then start performing the lab from the lab guide step **13**.
 
 1. On the right pane, scroll down and select **Create from template** button. Review the default options and then select **Save**.
 
-    ![Picture 1](../media/img-01-107.png)
+    ![Picture 1](../media/image-31.png)
 
-    ![Picture 1](../media/img-01-108.png)
+    ![Picture 1](../media/image-32.png)
 
 1. Once the saving is done, select the **Launch notebook** button. This will take you to the Microsoft Azure Machine Learning Studio.
 

@@ -20,7 +20,7 @@ In this task, you'll set up the connector to ensure effective log transmission a
    - Select **Microsoft Sentinel (1)**.
    - Expand **Content management (2)** and select **Content hub (3)**.
 
-      ![](../media/t3_g_e1_22.png)
+      ![](../media/image-12.png)
 
 1. On the **Content hub** page, in the search bar, type **Windows Security Events (1)**, then select the checkbox for **Windows Security Events (2)** from the results.
 
@@ -36,7 +36,7 @@ In this task, you'll set up the connector to ensure effective log transmission a
 
 1. On the left navigation pane, expand **Configuration (1)**, select **Data connectors (2)**, and in the search bar, type **Security Events via Legacy Agent (3)**. From the results, select **Security Events via Legacy Agent (4)**.
 
-   ![](../media/cor_r_g_5.png)
+   ![](../media/image-13.png)
 
 1. On the **Security Events via Legacy Agent** page, click **Open connector page**.
 

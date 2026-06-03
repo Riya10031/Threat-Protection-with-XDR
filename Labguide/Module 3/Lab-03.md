@@ -15,9 +15,9 @@ In this lab, you will perform the following:
 
 In this task, you will investigate a Microsoft Sentinel incident by reviewing its details, changing its status to Active, adding tags and comments, and running playbooks. You'll also assign the incident to yourself, explore related alerts and entities, and eventually close the incident after performing a detailed investigation.
 
-1. On the **Microsoft Defender portal**, under **Investigation & response**, select **Incidents & alerts (1)**, then select **Incidents (2)**, and from the list click the incident named **Startup RegKey (3)** to open its details.
+1. On the **Microsoft Defender portal**, under **Investigation & response (1)**, select **Incidents & alerts (2)**, then select **Incidents (3)**, and from the list click the incident named **Startup RegKey (4)** to open its details.
 
-   ![](../media/cor_r_g_17.png)
+   ![](../media/image-26.png)
 
 1. Under the **Incident details** section, select the linked incident name **Multi-stage incident involving Execution & Persistence on multiple endpoints reported by multiple sources (1)** to view full incident details.
 

@@ -31,7 +31,7 @@ In this task, you will configure Microsoft Sentinel to monitor Windows security 
    - Select **Microsoft Sentinel (1)**.
    - Expand **Content management (2)** and select **Content hub (3)**.
 
-      ![](../media/t3_g_e1_22.png)
+      ![](../media/image-14.png)
 
 1. On the **Content hub** page, in the search bar, type **Windows Security Events (1)**, then select the checkbox for **Windows Security Events (2)** from the results.
 
@@ -47,7 +47,7 @@ In this task, you will configure Microsoft Sentinel to monitor Windows security 
 
 1. On the left navigation pane, expand **Configuration (1)**, select **Data connectors (2)**, and in the search bar, type **Security Events via Legacy Agent (3)**. From the results, select **Security Events via Legacy Agent (4)**.
 
-   ![](../media/cor_r_g_5.png)
+   ![](../media/image-13.png)
 
 1. On the **Security Events via Legacy Agent** page, click **Open connector page**.
 
@@ -59,31 +59,31 @@ In this task, you will configure Microsoft Sentinel to monitor Windows security 
 
 1. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine.
 
-   ![](../media/t3_g_e2_8.png)
+   ![](../media/image-15.png)
 
 1. On the virtual machine page, click **Connect** to link the VM to Log Analytics.
 
-   ![](../media/t3_g_e2_9.png)
+   ![](../media/image-16.png)
 
 1. Select the **Virtual Machine** link from the top.
 
-   ![](../media/t3_g_e2_10.png)
+   ![](../media/image-17.png)
 
 1. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine.
 
-   ![](../media/t3_g_e2_11.png)
+   ![](../media/image-18.png)
 
 1. On the second virtual machine page, click **Connect** to link the VM to Log Analytics.
 
-   ![](../media/t3_g_e2_12.png)
+   ![](../media/image-19.png)
 
 1. Select the **Virtual Machine** link from the top.
 
-   ![](../media/t3_g_e2_13.png)
+   ![](../media/image-20.png)
 
 1. Verify that both virtual machines **s2vm-<inject key="DeploymentID" enableCopy="false" />** and **svm-<inject key="DeploymentID" enableCopy="false" />** display **This workspace (1)** under the **Log Analytics Connection** column, then click **Security Events via Legacy Agent (2)** in the breadcrumb to return to the connector page.
 
-   ![](../media/t3_g_e2_14.png)
+   ![](../media/image-21.png)
 
 1. In the **Instructions** section, under **Select which events to stream**, choose **All Events (1)** and click **Apply changes (2)**.
 
@@ -129,7 +129,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. On the **Environment settings** page, expand **Azure (1)**, then expand **Subscription** and select **loganalycticworkspace (2)**.
 
-   ![](../media/t3_g_e2_18.png)
+   ![](../media/image-22.png)
 
 1. On the **Select Defender plan** page, turn **On (1)** the toggles for **Foundational CSPM** and **Servers**, then click **Save (2)**.
 
@@ -139,7 +139,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 ### Task 3: Persistence Attack with Registry Key Add 
 
->**Note:** Perform this task in your LAB-VM (svm).
+>**Note:** Perform this task in your **svm-<inject key="DeploymentID" enableCopy="false" />**.
 
 In this task, you will create a temporary folder and a batch file using Command Prompt, then simulate program persistence by adding the file to the Windows startup process via the registry.
 
@@ -163,17 +163,9 @@ In this task, you will create a temporary folder and a batch file using Command 
     REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "SOC Test" /t REG_SZ /F /D "C:\temp\startup.bat"
     ```
 
-<validation step="076f54c8-ad3c-4b19-83f8-d277d70aff76" />
-
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task.
-> - If you receive a success message, you can proceed to the next task.
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 ### Task 4: Command and Control Attack with DNS
 
->**Note:** Perform this task in your LAB-VM (svm).
+>**Note:** Perform this task in your **svm-<inject key="DeploymentID" enableCopy="false" />**.
 
 In this task, you will create a PowerShell script that simulates DNS queries to a C2 server and run it in the background using Command Prompt. This script will generate log entries over time for later use in the Threat Hunting lab, allowing DNS resolution errors to occur as expected.
 
@@ -255,11 +247,11 @@ In this task, you will connect to a virtual machine using Remote Desktop from th
 
 1. Select the virtual machine **s2vm-<inject key="DeploymentID" enableCopy="false" />** from the list.
    
-   ![VMrdp](../media/vm1.png)
+   ![VMrdp](../media/image-23.png)
 
-1. At the beginning of the virtual machine page, click on **Connect**, and from the drop-down select **Connect**.
+1. At the beginning of the virtual machine page, click on **Connect (1)**, and from the drop-down select **Connect (2)**.
 
-   ![VMrdp](../media/vm2.png)
+   ![VMrdp](../media/image-24.png)
 
 1. On the **s2vm-<inject key="DeploymentID" enableCopy="false" /> | Connect** page, under **Native RDP**, choose the option to **Download RDP File**.
 
